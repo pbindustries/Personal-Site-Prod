@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Philip Bankier 
+  p.lead My Projects
+  div
+    ul
+      li(class=(title === 'mavenTiles') ? 'active' : undefined)
+        a(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
+      li(class=(title === 'droneSearch') ? 'active' : undefined)
+        a(href='https://github.com/philipbankier/drone-search') Drone Search
