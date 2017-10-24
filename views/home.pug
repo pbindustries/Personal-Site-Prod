@@ -1,7 +1,44 @@
 extends layout
 
 block content
-  h1 Philip Bankier 
-  p.lead My Personal Website
-  div
-    p.description I will be posting my projects on here
+
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')     
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')    
+    link(rel='stylesheet', type='text/css', href='/css/home.css')    
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') 
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')     
+
+  body
+    div.container-fluid.text-center.bg-1
+      div.jumbotron(style="background:transparent !important")
+        h1 Philip Bankier
+        p My Personal Website
+        .container#hoverPic
+          img.img-responsive.margin#preHoverPic(src="/images/buddy.jpg", alt="Image", align="middle")
+          .middle
+            .text#hoverText
+              a(href="http://www.google.com/") Click here for more info about the data used
+
+    // FIRST CONTAINER
+    .container-fluid.bg-7
+
+       // FORM DIV 
+       .col-sm-6.col-sm-offset-3.text-center.container.bg-2
+
+    // SECOND CONTAINER  
+    .container-fluid.bg-5.text-center    
+      h3.margin Somethings that I like:
+      .row
+        .col-sm-4
+          p Rick and Morty
+          img.img-responsive.margin(src="/images/RickMorty.jpeg", style="width:40%", alt="Image")
+        .col-sm-4
+          p Rock Climbing
+          img.img-responsive.margin(src="/images/rock.jpeg", style="width:100%", alt="Image")
+        .col-sm-4 
+          p Yoga
+          img.img-responsive.margin(src="/images/yoga.jpeg", style="width:50%", alt="Image")
+
+
+
