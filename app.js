@@ -21,7 +21,7 @@ const sass = require('node-sass-middleware');
 const multer = require('multer');
 
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
-
+ 
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
  */
@@ -121,7 +121,6 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  */
 app.get('/', homeController.index);
 app.get('/projects', projectsController.index);
-app.get('/escape-velocity', homeController.escapeVelocity);
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
@@ -164,7 +163,7 @@ app.get('/auth/linkedin/callback', passport.authenticate('linkedin', { failureRe
 });
 
 /**
- * Error Handler.
+ * Error Handler. 
  */
 app.use(errorHandler());
 
