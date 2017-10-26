@@ -87,12 +87,12 @@ p {
 }
 
 /*.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #6599FF !important;
 }*/
 
 .bg-1 {
   background-color: #6599FF;
-  /* Green */
+  /* Light Blue */
   color: #ffffff;
 }
 
@@ -137,7 +137,7 @@ p {
 #preHoverPic {
   opacity: 1;
   display: block;
-  width: 40%;
+  width: 100%;
   margin: auto;
   height: auto;
   transition: .5s ease;
@@ -164,9 +164,16 @@ p {
 }
 
 #hoverText {
-  background-color: #1abc9c;
+  background-color: #6599FF;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
   text-decoration: none;
+}
+
+#resume {  
+  display: block;
+  width: 110%;
+  margin: auto;
+  height: auto;
 }

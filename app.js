@@ -25,7 +25,7 @@ const upload = multer({ dest: path.join(__dirname, 'uploads') });
 /**
  * Load environment variables from .env file, where API keys and passwords are configured.
  */
-dotenv.load({ path: '.env.example' });
+dotenv.load({ path: '.env' });
 
 /**
  * Controllers (route handlers).
@@ -35,6 +35,7 @@ const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const projectsController = require('./controllers/projects');
+const resumeController = require('./controllers/resume');
 
 /**
  * API keys and Passport configuration.
@@ -121,6 +122,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  */
 app.get('/', homeController.index);
 app.get('/projects', projectsController.index);
+app.get('/resume', resumeController.index);
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
