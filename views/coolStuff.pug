@@ -9,7 +9,13 @@ block content
 
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center    
-    div
-      ul
-        li(class=(title === 'mavenTiles') ? 'active' : undefined)
-          a(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
+    div.panel.panel-default
+          div.panel-heading
+            h4.panel-title
+              a(data-toggle="collapse", data-parent="#accordion", href="#collapse1") Artificial Intelligence
+
+          div.panel-collapse.collapse#collapse1 
+            div.panel-body
+              ul
+                li(class=(title === 'aiArticles') ? 'active' : undefined)
+                  a(href='https://spectrum.ieee.org/robotics/artificial-intelligence') AI Articles
