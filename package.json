@@ -1,7 +1,7 @@
 {
-  "name": "hackathon-starter",
+  "name": "Philip-Bankier-Personal-Website",
   "version": "4.3.0",
-  "description": "A boilerplate for Node.js web applications",
+  "description": "My personal website, where i will host my projects, pictures and other cool things that I find.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philipbankier/Personal-Website.git"

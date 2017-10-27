@@ -16,3 +16,4 @@ My personal website, i will be adding my projects to this site.
 * Improve form appearance
 * Add specific username to profile page
 * Improve the appearance of the link section on the profile page
+* Change body background to grey

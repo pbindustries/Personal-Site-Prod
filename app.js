@@ -20,6 +20,9 @@ const expressStatusMonitor = require('express-status-monitor');
 const sass = require('node-sass-middleware');
 const multer = require('multer');
 
+// Router Dev
+// const router = require('./router');
+
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
  
 /**
@@ -30,14 +33,10 @@ dotenv.load({ path: '.env' });
 /**
  * Controllers (route handlers).
  */
-const homeController = require('./controllers/home');
 const userController = require('./controllers/user');
 const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
-const projectsController = require('./controllers/projects');
-const resumeController = require('./controllers/resume');
-const resourcesController = require('./controllers/resources');
-const coolStuffController = require('./controllers/coolStuff');
+const pagesController = require('./controllers/pages');
 
 /**
  * API keys and Passport configuration.
@@ -119,14 +118,22 @@ app.use((req, res, next) => {
 });
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }));
 
+
+// Router Dev
+// app.use('/', router)
+
 /**
- * Primary app routes.
+ * Primary routes.
  */
-app.get('/', homeController.index);
-app.get('/projects', projectsController.index);
-app.get('/coolStuff', coolStuffController.index);
-app.get('/resume', resumeController.index);
-app.get('/resources', resourcesController.index);
+app.get('/', pagesController.home);
+app.get('/projects', pagesController.projects);
+app.get('/coolStuff', pagesController.coolStuff);
+app.get('/resume', pagesController.resume);
+app.get('/resources', pagesController.resources);
+
+/**
+ * Account routes
+ */
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
