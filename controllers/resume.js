@@ -3,7 +3,7 @@
  * Resume page.
  */
 exports.index = (req, res) => {
-    res.render('resume', {
+  res.render('resume', {
     title: 'Resume'
-  	});
+  });
 };

@@ -14,10 +14,10 @@ html {
 }
 
 body {
+  width: 100%;
   padding-top: 60px;
   margin-bottom: 75px;
 }
-
 footer {
   position: absolute;
   bottom: 0;
@@ -68,27 +68,8 @@ textarea {
   margin-right: 6px;
 }
 
-// from home page 
-body {
-  font: 20px Montserrat, sans-serif;
-  line-height: 1.8;
-  background: #FFFFFF;
-  height: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-size: 16px;
-}
-
-.margin {
-  margin-bottom: 45px;
-}
-
-/*.navbar-nav  li a:hover {
-    color: #6599FF !important;
-}*/
+// Colors
+// -------------------------
 
 .bg-1 {
   background-color: #6599FF;
@@ -129,10 +110,12 @@ p {
   /* Dark Gray */
 }
 
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
+.bg-8 {
+  background-color: #000000;
+  /* Black */ }
+
+// Hover Over Picture 
+// -------------------------
 
 #preHoverPic {
   opacity: 1;
@@ -170,6 +153,9 @@ p {
   padding: 16px 32px;
   text-decoration: none;
 }
+
+// Resume 
+// -------------------------
 
 #resume {  
   display: block;

@@ -1,25 +1,39 @@
 extends layout
 
 block content
-  .page-header
-    h3 Contact Form
+  .container-fluid.text-center.bg-1
+    .jumbotron(style="background:transparent !important")
+      h1 Contact Me
+      .container#hoverPic
+        img.img-responsive.margin#preHoverPic(src="/images/buddy.jpg", alt="Image", align="middle")
 
-  form.form-horizontal(method='POST')
-    input(type='hidden', name='_csrf', value=_csrf)
-    .form-group
-      label(class='col-sm-2 control-label', for='name') Name
-      .col-sm-8
-        input.form-control(type='text', name='name', id='name', autofocus=true)
-    .form-group
-      label(class='col-sm-2 control-label', for='email') Email
-      .col-sm-8
-        input.form-control(type='text', name='email', id='email')
-    .form-group
-      label(class='col-sm-2 control-label', for='message') Body
-      .col-sm-8
-        textarea.form-control(name='message', id='message', rows='7')
-    .form-group
-      .col-sm-offset-2.col-sm-8
-        button.btn.btn-primary(type='submit')
-          i.fa.fa-envelope
-          | Send
+  .container-fluid.bg-7
+    // FORM DIV 
+    .col-sm-8.col-sm-offset-2.text-center.container.bg-4.page-header
+      form.form-horizontal(method='POST')
+        h1 Send Me An Email
+        br
+        input(type='hidden', name='_csrf', value=_csrf)
+        .form-group
+          label(class='col-sm-2 control-label', for='name') Name
+          .col-sm-8
+            input.form-control(type='text', name='name', id='name', autofocus=true)
+        .form-group
+          label(class='col-sm-2 control-label', for='email') Email
+          .col-sm-8
+            input.form-control(type='text', name='email', id='email')
+        .form-group
+          label(class='col-sm-2 control-label', for='message') Body
+          .col-sm-8
+            textarea.form-control(name='message', id='message', rows='7')
+        .form-group
+          .col-sm-offset-2.col-sm-8
+            button.btn.btn-primary(type='submit')
+              i.fa.fa-envelope
+              | Send
+        br
+        h4  Or contact me on:
+        br
+        h4  Facebook: https://www.facebook.com/philip.bankier
+        h4  LinkedIn: https://www.linkedin.com/in/philip-bankier-89264b42/
+        
