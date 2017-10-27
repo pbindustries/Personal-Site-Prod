@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .container-fluid.text-center.bg-1
+    .jumbotron(style="background:transparent !important")
+      h1 Some Cool Stuff
+      .container#hoverPic
+        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy2.jpg", alt="Image", align="middle")
+
+  //- FIRST CONTAINER
+  .container-fluid.bg-5.text-center    
+    div
+      ul
+        li(class=(title === 'mavenTiles') ? 'active' : undefined)
+          a(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles

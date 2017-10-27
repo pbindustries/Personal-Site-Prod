@@ -37,6 +37,7 @@ const contactController = require('./controllers/contact');
 const projectsController = require('./controllers/projects');
 const resumeController = require('./controllers/resume');
 const resourcesController = require('./controllers/resources');
+const coolStuffController = require('./controllers/coolStuff');
 
 /**
  * API keys and Passport configuration.
@@ -123,6 +124,7 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  */
 app.get('/', homeController.index);
 app.get('/projects', projectsController.index);
+app.get('/coolStuff', coolStuffController.index);
 app.get('/resume', resumeController.index);
 app.get('/resources', resourcesController.index);
 app.get('/login', userController.getLogin);
