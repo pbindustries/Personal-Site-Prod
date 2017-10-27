@@ -10,8 +10,60 @@ block content
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center    
     div
-      ul
-        li(class=(title === 'mavenTiles') ? 'active' : undefined)
-          a(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
-        li(class=(title === 'droneSearch') ? 'active' : undefined)
-          a(href='https://github.com/philipbankier/drone-search') Drone Search
+
+    div.panel-group#accordion
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse1") JavaScript
+  
+        div.panel-collapse.collapse.in#collapse1
+          div.panel-body
+            ul
+              li(class=(title === 'droneSearch') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/drone-search') Drone Search
+              li(class=(title === 'mavenTiles') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Blast-Radius-Calculator-App') Blast Radius Calculator App
+              li(class=(title === 'sampleSite1') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Sample-website-using-Node-and-Express') Sample Website Using Node and Express 2.0
+              li(class=(title === 'sampleSite2') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Sample-site') Sample Website Using Node and Express 1.0
+              li(class=(title === 'trump-o-meter') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/drone-search') Trump-O-Meter
+              li(class=(title === 'd3WebApp') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/d3-web-app') D3 Web Application
+              li(class=(title === 'jsonScraper') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/jsonScraper') JSON Scraper
+              li(class=(title === 'generalScraper') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Node-webscraper') General Web Scraper
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse2") Kotlin
+
+        div.panel-collapse.collapse#collapse2 
+          div.panel-body
+            ul
+              li(class=(title === 'kotlinStockApp') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Kotlin-Stock-App') Kotlin Stock App
+              li(class=(title === 'mavenTiles') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
+              li(class=(title === 'mavenKotlinTetris') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Maven-Kotlin-Tetris') Maven Kotlin Tetris
+              li(class=(title === 'dropwizardKotlinSwaggerStarter') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
+
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse3") MIPS/Logisim
+
+        div.panel-collapse.collapse#collapse3
+          div.panel-body
+            ul
+              li(class=(title === 'mipsProject') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/MIPS-Projects') My MIPS Projects
+              li(class=(title === 'cpuProject') ? 'active' : undefined)
+                a(href='https://github.com/philipbankier/Logisim-CPU-Project') Logisim CPU Project
+
+           
