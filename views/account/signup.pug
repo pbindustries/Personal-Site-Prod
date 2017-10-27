@@ -2,11 +2,19 @@ extends ../layout
 
 block content
   .container-fluid.text-center.bg-1
+    .jumbotron(style="background:transparent !important")
+      h1 Login
+      .container#hoverPic
+        img.img-responsive.margin#preHoverPic(src="/images/buddy.jpg", alt="Image", align="middle")
+
+
+  .container-fluid.text-center.bg-7
 
     // FORM DIV 
-    .col-sm-6.col-sm-offset-3.text-center.container.bg-2.page-header
+    .col-sm-8.col-sm-offset-2.text-center.container.bg-4.page-header
       form.form-horizontal(id='signup-form', method='POST')
-        label Create Account
+        h1 Create An Account
+        br
         input(type='hidden', name='_csrf', value=_csrf)
         .form-group
           label.col-sm-3.control-label(for='email') Email
@@ -23,5 +31,4 @@ block content
         .form-group
           .col-sm-offset-3.col-sm-7
             button.btn.btn-success(type='submit')
-              i.fa.fa-user-plus
-              | Signup
+              i.fa.fa-user-plus Signup
