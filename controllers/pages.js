@@ -1,12 +1,3 @@
-/**
- * GET /
- * Cool Stuff page.
- */
-exports.coolStuff = (req, res) => {
-  res.render('coolStuff', {
-    title: 'coolStuff'
-  });
-};
 
 /**
  * GET /
@@ -45,5 +36,35 @@ exports.resources = (req, res) => {
 exports.resume = (req, res) => {
   res.render('resume', {
     title: 'Resume'
+  });
+};
+
+/**
+ * GET /
+ * Buddy page.
+ */
+exports.buddy = (req, res) => {
+  res.render('coolStuff/buddy', {
+    title: 'Buddy'
+  });
+};
+
+/**
+ * GET /
+ * Boo page.
+ */
+exports.boo = (req, res) => {
+  res.render('coolStuff/boo', {
+    title: 'Boo'
+  });
+};
+
+/**
+ * GET /
+ * Articles page.
+ */
+exports.articles = (req, res) => {
+  res.render('coolStuff/articles', {
+    title: 'Articles'
   });
 };

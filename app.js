@@ -116,16 +116,18 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 // Router Dev
 // app.use('/', router)
 
-/**
+/**  
  * Primary routes.
  */
 app.get('/', pagesController.home);
 app.get('/projects', pagesController.projects);
-app.get('/coolStuff', pagesController.coolStuff);
+app.get('/buddy', pagesController.buddy);
+app.get('/boo', pagesController.boo);
+app.get('/articles', pagesController.articles);
 app.get('/resume', pagesController.resume);
 app.get('/resources', pagesController.resources);
 
-/**
+/**   
  * Account routes
  */
 app.get('/login', userController.getLogin);

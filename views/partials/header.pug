@@ -22,16 +22,16 @@
               a(href='/resume') My Resume
             li(class=(title === 'Resources') ? 'active' : undefined)
               a(href='/resources') Resources
-            li.dropdown(class=(title === 'coolStuff') ? 'active' : undefined)
-              a.dropdown-toggle(href='/coolStuff', data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Cool Stuff
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Cool Stuff
                 span(class='caret')
                   ul.dropdown-menu
                     li
-                      a(href='/') Buddy
+                      a(href='/buddy') Buddy
                     li
-                      a(href='/') Boo
+                      a(href='/boo') Boo
                     li
-                      a(href='/') Interesting Reads
+                      a(href='/articles') Articles
             li
               a(href='/status') Status
 
