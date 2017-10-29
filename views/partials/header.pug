@@ -14,16 +14,22 @@
           ul.nav.navbar-nav
             li(class=(title === 'Home') ? 'active' : undefined)
               a(href='/') Home
-            li(class=(title === 'About') ? 'active' : undefined)
-              a(href='/about') About Me
-            li(class=(title === 'Projects') ? 'active' : undefined)
-              a(href='/projects') My Projects
             li(class=(title === 'Contact') ? 'active' : undefined)
               a(href='/contact') Contact Me
-            li(class=(title === 'Resume') ? 'active' : undefined)
-              a(href='/resume') My Resume
             li(class=(title === 'Resources') ? 'active' : undefined)
               a(href='/resources') Resources
+            li(class=(title === 'Rules') ? 'active' : undefined)
+              a(href='/rules') Game Rules
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
+                span(class='caret')
+                  ul.dropdown-menu
+                    li(class=(title === 'About') ? 'active' : undefined)
+                      a(href='/about') About Me
+                    li(class=(title === 'Resume') ? 'active' : undefined)
+                      a(href='/resume') My Resume
+                    li(class=(title === 'Projects') ? 'active' : undefined)
+                      a(href='/projects') My Projects
             li.dropdown
               a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Cool Stuff
                 span(class='caret')

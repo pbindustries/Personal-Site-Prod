@@ -9,29 +9,38 @@ block content
 
 
   .container-fluid.text-center.bg-7
-
-    // FORM DIV 
-    .col-sm-8.col-sm-offset-2.text-center.container.bg-4.page-header
-      form.form-horizontal(id='signup-form', method='POST')
-        h1 Create An Account
-        br
-        input(type='hidden', name='_csrf', value=_csrf)
-        .form-group
-          label.col-sm-3.control-label(for='email') Email
-          .col-sm-7
-            input.form-control(type='email', name='email', id='email', placeholder='Email', autofocus, required)
-        .form-group
-          label.col-sm-3.control-label(for='password') Password
-          .col-sm-7
-            input.form-control(type='password', name='password', id='password', placeholder='Password', required)
-        .form-group
-          label.col-sm-3.control-label(for='confirmPassword') Confirm Password
-          .col-sm-7
-            input.form-control(type='password', name='confirmPassword', id='confirmPassword', placeholder='Confirm Password', required)
-        .form-group
-          .col-sm-offset-3.col-sm-7
-            button.btn.btn-success(type='submit')
+    .container
+      .container-page
+        // FORM DIV 
+        .col-md-8.bg-4.page-header
+          h1 Create An Account
+          form.form-horizontal(id='signup-form', method='POST')
+            br
+            input(type='hidden', name='_csrf', value=_csrf)
+            .form-group.col-lg-12
+              label Username
+                input.form-control(type='', name='', id='', placeholder='Username', autofocus, required)
+            .form-group.col-lg-6
+              label Password
+                input.form-control(type='', name='', id='', placeholder='Password', required)
+            .form-group.col-lg-6
+              label.col-sm-3.control-label(for='confirmPassword') Confirm Password
+                input.form-control(type='', name='', id='', placeholder='Confirm Password', required)
+            .form-group.col-lg-6
+              label.col-sm-3.control-label Email Address
+                input.form-control(type='', name='', id='', placeholder='Email', required)
+            .form-group.col-lg-6
+              label.col-sm-3.control-label Confirm Email Address
+                input.form-control(type='', name='', id='', placeholder='Confirm Email', required)
+            .form-group.col-sm-6
+              label Sign up for our newsletter
+              input.checkbox(type="checkbox") 
+            .form-group.col-sm-6
+              label Send notifications to this email
+              input.checkbox(type="checkbox") 
+            button.btn.btn-success(type="submit") 
               i.fa.fa-user-plus Signup
+
   br
   br
   br            

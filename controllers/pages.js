@@ -78,3 +78,14 @@ exports.about = (req, res) => {
     title: 'About'
   });
 };
+
+/**
+ * GET /
+ * Game Rules page.
+ */
+exports.rules = (req, res) => {
+  res.render('rules', {
+    title: 'Rules'
+  });
+};
+
