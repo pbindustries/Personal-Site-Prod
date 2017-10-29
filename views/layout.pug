@@ -8,11 +8,10 @@ html
     meta(name='csrf-token', content=_csrf)
     title #{title} - Philip Bankier
     link(rel='icon', href='/favicon.png', type="image/png")
-    link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='/css/style.css')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css') 
 
-    //- Lightgallery Dev
-    //- link(type="text/css", rel="stylesheet", href="https://github.com/sachinchoolur/lightGallery/blob/master/src/css/lightgallery.css")
+    link(type="text/css", rel="stylesheet", href="/css/lightgallery.css")
 
   body
     include partials/header
@@ -25,16 +24,18 @@ html
 
     script(src='/js/lib/jquery-3.1.1.min.js')
     script(src='/js/lib/bootstrap.min.js')
+
+    //- Lightbox Dev
+    //- A jQuery plugin that adds cross-browser mouse wheel support
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js")
+    script(src="js/lightgallery.min.js") 
+    script(src="js/lightGallery.js") 
+    //- Lightgallery plugins 
+    script(src="js/lg-thumbnail.min.js") 
+    script(src="js/lg-fullscreen.min.js") 
+     
     script(src='/js/main.js')
 
-    //- //- Lightbox Dev
-    //- //- A jQuery plugin that adds cross-browser mouse wheel support
-    //- script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js")
-    //- script(src="js/lightgallery.min.js") 
-    //- //- Lightgallery plugins 
-    //- script(src="js/lg-thumbnail.min.js") 
-    //- script(src="js/lg-fullscreen.min.js") 
-    //- script(src="js/lightGallery.js") 
 
     //- Google Analytics: change UA-XXXXX-X to be your site's ID
     script.

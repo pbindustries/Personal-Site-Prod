@@ -1,47 +1,58 @@
-.navbar.navbar-default.navbar-fixed-top
-  .container
-    .navbar-header
-      button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      a.navbar-brand(href='/')
-        i.fa.fa-cube Philip Bankier    
-      .collapse.navbar-collapse
-      ul.nav.navbar-nav
-        li(class=(title === 'Home') ? 'active' : undefined)
-          a(href='/') Home
-        li(class=(title === 'Projects') ? 'active' : undefined)
-          a(href='/projects') My Projects
-        li(class=(title === 'Contact') ? 'active' : undefined)
-          a(href='/contact') Contact Me
-        li(class=(title === 'Resume') ? 'active' : undefined)
-          a(href='/resume') My Resume
-        li(class=(title === 'Resources') ? 'active' : undefined)
-          a(href='/resources') Resources
-        li(class=(title === 'coolStuff') ? 'active' : undefined)
-          a(href='/coolStuff') Cool Stuff
-        li
-          a(href='/status') Status
-      ul.nav.navbar-nav.navbar-right
-        if !user
-          li(class=(title === 'Login') ? 'active' : undefined)
-            a(href='/login') Login
-          li(class=(title === 'Create Account') ? 'active' : undefined)
-            a(href='/signup') Create Account
-        else
-          li.dropdown(class=(title === 'Account Management') ? 'active' : undefined)
-            a.dropdown-toggle(href='#', data-toggle='dropdown')
-              if user.profile.picture
-                img(src=user.profile.picture)
-              else
-                img(src=user.gravatar(60))
-              span= user.profile.name || user.email || user.id
-              i.caret
-            ul.dropdown-menu
-              li
-                a(href='/account') My Account
-              li.divider
-              li
-                a(href='/logout') Logout
+.navbar-wrapper
+  .container-fluid
+    .navbar.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded="false", aria-controls="navbar")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+          a.navbar-brand.fa.fa-cube(href='/') Philip Bankier
+        //- i.fa.fa-cube Philip Bankier    
+        .collapse.navbar-collapse#navbar
+          ul.nav.navbar-nav
+            li(class=(title === 'Home') ? 'active' : undefined)
+              a(href='/') Home
+            li(class=(title === 'Projects') ? 'active' : undefined)
+              a(href='/projects') My Projects
+            li(class=(title === 'Contact') ? 'active' : undefined)
+              a(href='/contact') Contact Me
+            li(class=(title === 'Resume') ? 'active' : undefined)
+              a(href='/resume') My Resume
+            li(class=(title === 'Resources') ? 'active' : undefined)
+              a(href='/resources') Resources
+            li.dropdown(class=(title === 'coolStuff') ? 'active' : undefined)
+              a.dropdown-toggle(href='/coolStuff', data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Cool Stuff
+                span(class='caret')
+                  ul.dropdown-menu
+                    li
+                      a(href='/') Buddy
+                    li
+                      a(href='/') Boo
+                    li
+                      a(href='/') Interesting Reads
+            li
+              a(href='/status') Status
+
+          ul.nav.navbar-nav.navbar-right
+            if !user
+              li(class=(title === 'Login') ? 'active' : undefined)
+                a(href='/login') Login
+              li(class=(title === 'Create Account') ? 'active' : undefined)
+                a(href='/signup') Create Account
+            else
+              li.dropdown(class=(title === 'Account Management') ? 'active' : undefined)
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  if user.profile.picture
+                    img(src=user.profile.picture)
+                  else
+                    img(src=user.gravatar(60))
+                  span= user.profile.name || user.email || user.id
+                  i.caret
+                ul.dropdown-menu
+                  li
+                    a(href='/account') My Account
+                  li.divider
+                  li
+                    a(href='/logout') Logout

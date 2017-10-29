@@ -12,7 +12,6 @@ My personal website, i will be adding my projects to this site.
 * Improve Nav-bar and Footer
 * Integrate projects 
 * Add direct social media messaging on contact form 
-* Add style to resource and project lists
 * Improve form appearance
 * Add specific username to profile page
 * Improve the appearance of the link section on the profile page
