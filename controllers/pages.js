@@ -68,3 +68,13 @@ exports.articles = (req, res) => {
     title: 'Articles'
   });
 };
+
+/**
+ * GET /
+ * About page.
+ */
+exports.about = (req, res) => {
+  res.render('about', {
+    title: 'About'
+  });
+};

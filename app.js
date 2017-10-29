@@ -117,15 +117,20 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 // app.use('/', router)
 
 /**  
- * Primary routes.
+ * Primary routes
  */
 app.get('/', pagesController.home);
 app.get('/projects', pagesController.projects);
+app.get('/resume', pagesController.resume);
+app.get('/resources', pagesController.resources);
+app.get('/about', pagesController.about);
+
+/**  
+ * Cool Stuff Routes
+ */
 app.get('/buddy', pagesController.buddy);
 app.get('/boo', pagesController.boo);
 app.get('/articles', pagesController.articles);
-app.get('/resume', pagesController.resume);
-app.get('/resources', pagesController.resources);
 
 /**   
  * Account routes

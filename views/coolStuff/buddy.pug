@@ -3,22 +3,13 @@ extends ../layout
 block content
   .container-fluid.text-center.bg-1
     .jumbotron(style="background:transparent !important")
-      h1 Buddy
-      .container#hoverPic
-        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy7.jpg", alt="Image", align="middle")
-
+      h1 Buddy 
   //- FIRST CONTAINER
-  .container-fluid.bg-5.text-center    
-    div.panel.panel-default
-          div.panel-heading
-            h4.panel-title
-              a(data-toggle="collapse", data-parent="#accordion", href="#collapse1") Artificial Intelligence
+  .container-fluid.bg-5.text-center 
+    br
+    .container#hoverPic
+      img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy7.jpg", alt="Image", align="middle")
 
-          div.panel-collapse.collapse#collapse1 
-            div.panel-body
-              ul
-                li(class=(title === 'aiArticles') ? 'active' : undefined)
-                  a(href='https://spectrum.ieee.org/robotics/artificial-intelligence') AI Articles
   br
   br
   br                
