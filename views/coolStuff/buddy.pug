@@ -6,9 +6,30 @@ block content
       h1 Buddy 
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center 
-    br
-    .container#hoverPic
-      img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy7.jpg", alt="Image", align="middle")
+    .carousel.slide#myCarousel(data-ride="carousel")
+      //- Indicators
+      ol.carousel-indicators
+        li.active(data-target="#myCarousel", data-slide-to="0")
+        li(data-target="#myCarousel", data-slide-to="1")
+        li(data-target="#myCarousel", data-slide-to="2")
+
+      //- Wrapper for slides
+      .carousel-inner
+        .item.active
+          img.center(src="/images/buddy/buddy.jpg", alt="Pic1")
+        .item
+          img.center(src="/images/buddy/buddy2.jpg", alt="Pic2")
+        .item
+          img.center(src="/images/buddy/buddy3.jpg", alt="Pic3")
+
+      //- Left and right controls
+      a.left.carousel-control(href="#myCarousel", data-slide="prev")
+        span.glyphicon.glyphicon-chevron-left
+        span.sr-only Previous
+      a.right.carousel-control(href="#myCarousel", data-slide="next")
+        span.glyphicon.glyphicon-chevron-right
+        span.sr-only Next
+
 
   br
   br
