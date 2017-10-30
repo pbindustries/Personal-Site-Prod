@@ -1,6 +1,6 @@
 {
   "name": "Philip-Bankier-Personal-Website",
-  "version": "4.3.0",
+  "version": "1.0.0",
   "description": "My personal website, where i will host my projects, pictures and other cool things that I find.",
   "repository": {
     "type": "git",
@@ -58,6 +58,7 @@
     "passport-openid": "^0.4.0",
     "pug": "^2.0.0-rc.3",
     "request": "^2.81.0",
+    "socket.io": "^2.0.4",
     "validator": "^8.0.0"
   },
   "devDependencies": {
