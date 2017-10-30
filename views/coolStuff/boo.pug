@@ -3,20 +3,33 @@ extends ../layout
 block content
   .container-fluid.text-center.bg-1
     .jumbotron(style="background:transparent !important")
-      h1 Boo
+      h1 Boo 
 
   //- FIRST CONTAINER
-  .container-fluid.bg-5.text-center    
-    div.panel.panel-default
-          div.panel-heading
-            h4.panel-title
-              a(data-toggle="collapse", data-parent="#accordion", href="#collapse1") Artificial Intelligence
+  .container-fluid.bg-5.text-center 
+    .carousel.slide#myCarousel(data-ride="carousel")
+      //- Indicators
+      ol.carousel-indicators
+        li.active(data-target="#myCarousel", data-slide-to="0")
+        li(data-target="#myCarousel", data-slide-to="1")
+        li(data-target="#myCarousel", data-slide-to="2")
 
-          div.panel-collapse.collapse#collapse1 
-            div.panel-body
-              ul
-                li(class=(title === 'aiArticles') ? 'active' : undefined)
-                  a(href='https://spectrum.ieee.org/robotics/artificial-intelligence') AI Articles
+      //- Wrapper for slides
+      .carousel-inner
+        .item.active
+          img.center(src="/images/boo/boo1.jpg", alt="Pic1")
+        .item
+          img.center(src="/images/buddy/buddy2.jpg", alt="Pic2")
+        .item
+          img.center(src="/images/buddy/buddy3.jpg", alt="Pic3")
+
+      //- Left and right controls
+      a.left.carousel-control(href="#myCarousel", data-slide="prev")
+        span.glyphicon.glyphicon-chevron-left
+        span.sr-only Previous
+      a.right.carousel-control(href="#myCarousel", data-slide="next")
+        span.glyphicon.glyphicon-chevron-right
+        span.sr-only Next
   br
   br
   br                

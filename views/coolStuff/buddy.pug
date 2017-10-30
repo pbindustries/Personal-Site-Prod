@@ -4,6 +4,7 @@ block content
   .container-fluid.text-center.bg-1
     .jumbotron(style="background:transparent !important")
       h1 Buddy 
+
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center 
     .carousel.slide#myCarousel(data-ride="carousel")
@@ -12,6 +13,11 @@ block content
         li.active(data-target="#myCarousel", data-slide-to="0")
         li(data-target="#myCarousel", data-slide-to="1")
         li(data-target="#myCarousel", data-slide-to="2")
+        li(data-target="#myCarousel", data-slide-to="3")
+        li(data-target="#myCarousel", data-slide-to="4")
+        li(data-target="#myCarousel", data-slide-to="5")
+        li(data-target="#myCarousel", data-slide-to="6")
+        li(data-target="#myCarousel", data-slide-to="7")
 
       //- Wrapper for slides
       .carousel-inner
@@ -21,6 +27,16 @@ block content
           img.center(src="/images/buddy/buddy2.jpg", alt="Pic2")
         .item
           img.center(src="/images/buddy/buddy3.jpg", alt="Pic3")
+        .item
+          img.center(src="/images/buddy/buddy4.jpg", alt="Pic4")
+        .item
+          img.center(src="/images/buddy/buddy5.jpg", alt="Pic5")
+        .item
+          img.center(src="/images/buddy/buddy6.jpg", alt="Pic6")
+        .item
+          img.center(src="/images/buddy/buddy7.jpg", alt="Pic7")
+        .item
+          img.center(src="/images/buddy/buddy8.jpg", alt="Pic8")
 
       //- Left and right controls
       a.left.carousel-control(href="#myCarousel", data-slide="prev")
@@ -29,8 +45,6 @@ block content
       a.right.carousel-control(href="#myCarousel", data-slide="next")
         span.glyphicon.glyphicon-chevron-right
         span.sr-only Next
-
-
   br
   br
   br                
