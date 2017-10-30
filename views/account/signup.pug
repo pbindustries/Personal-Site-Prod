@@ -9,37 +9,54 @@ block content
 
 
   .container-fluid.text-center.bg-7
-    .container
-      .container-page
-        // FORM DIV 
-        .col-md-8.bg-4.page-header
-          h1 Create An Account
-          form.form-horizontal(id='signup-form', method='POST')
-            br
-            input(type='hidden', name='_csrf', value=_csrf)
-            .form-group.col-lg-12
-              label Username
-                input.form-control(type='', name='', id='', placeholder='Username', autofocus, required)
-            .form-group.col-lg-6
-              label Password
-                input.form-control(type='', name='', id='', placeholder='Password', required)
-            .form-group.col-lg-6
-              label.col-sm-3.control-label(for='confirmPassword') Confirm Password
-                input.form-control(type='', name='', id='', placeholder='Confirm Password', required)
-            .form-group.col-lg-6
-              label.col-sm-3.control-label Email Address
-                input.form-control(type='', name='', id='', placeholder='Email', required)
-            .form-group.col-lg-6
-              label.col-sm-3.control-label Confirm Email Address
-                input.form-control(type='', name='', id='', placeholder='Confirm Email', required)
-            .form-group.col-sm-6
-              label Sign up for our newsletter
-              input.checkbox(type="checkbox") 
-            .form-group.col-sm-6
-              label Send notifications to this email
-              input.checkbox(type="checkbox") 
-            button.btn.btn-success(type="submit") 
-              i.fa.fa-user-plus Signup
+    .container-page
+      // FORM DIV 
+      .col-md-8.col-sm-offset-2.bg-4.page-header
+        h1 Create An Account
+        form.form-horizontal(id='signup-form', method='POST')
+          
+          input(type='hidden', name='_csrf', value=_csrf)
+          .form-group.col-lg-12
+            label.control-label.col-sm-2 Username
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Username', autofocus, required)
+     
+          .form-group.col-lg-12
+            label.control-label.col-sm-2 Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Password', autofocus, required)
+               
+          .form-group.col-lg-12
+            label.control-label.col-sm-2(for='confirmPassword') Confirm Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Confirm Password', autofocus, required)
+     
+          .form-group.col-lg-12
+            label.control-label.col-sm-2  Email Address
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Email', autofocus, required)
+
+          .form-group.col-lg-12
+            label.control-label.col-sm-2  Confirm Email Address
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Confirm Email', autofocus,required)
+      
+      
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              .checkbox
+                label 
+                  input.checkbox(type="checkbox") 
+                  | Sign up for our newsletter
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              .checkbox
+                label 
+                  input.checkbox(type="checkbox")
+                  | Send notifications to this email 
+          br
+          button.btn.btn-success(type="submit") 
+            i.fa.fa-user-plus Signup
 
   br
   br

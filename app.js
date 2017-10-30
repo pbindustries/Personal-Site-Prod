@@ -65,10 +65,12 @@ app.set('host', process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0');
 app.set('port', process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+// /status = express application status monitor
 app.use(expressStatusMonitor());
 app.use(compression());
-app.use(logger('dev'));
-app.use(bodyParser.json());
+app.use(logger('dev')); // log every request to the console
+app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(expressValidator());
 app.use(session({
@@ -82,8 +84,8 @@ app.use(session({
   })
 }));
 app.use(passport.initialize());
-app.use(passport.session());
-app.use(flash());
+app.use(passport.session());  // persistent login sessions
+app.use(flash());  // use express-flash for flash messages stored in session
 app.use((req, res, next) => {
   if (req.path === '/api/upload') {
     next();
