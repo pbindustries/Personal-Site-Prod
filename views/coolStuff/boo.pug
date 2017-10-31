@@ -6,30 +6,29 @@ block content
       h1 Boo 
 
   //- FIRST CONTAINER
-  .container-fluid.bg-5.text-center 
-    .carousel.slide#myCarousel(data-ride="carousel")
-      //- Indicators
-      ol.carousel-indicators
-        li.active(data-target="#myCarousel", data-slide-to="0")
-        li(data-target="#myCarousel", data-slide-to="1")
-        li(data-target="#myCarousel", data-slide-to="2")
+  .carousel.slide#myCarousel(data-ride="carousel")
+    //- Indicators
+    ol.carousel-indicators
+      li.active(data-target="#myCarousel", data-slide-to="0")
+      li(data-target="#myCarousel", data-slide-to="1")
+      li(data-target="#myCarousel", data-slide-to="2")
 
-      //- Wrapper for slides
-      .carousel-inner
-        .item.active
-          img.center(src="/images/boo/boo1.jpg", alt="Pic1")
-        .item
-          img.center(src="/images/buddy/buddy2.jpg", alt="Pic2")
-        .item
-          img.center(src="/images/buddy/buddy3.jpg", alt="Pic3")
+    //- Wrapper for slides
+    .carousel-inner
+      .item.active
+        img.center(src="/images/boo/boo1.jpg", alt="Pic1", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy2.jpg", alt="Pic2", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
 
-      //- Left and right controls
-      a.left.carousel-control(href="#myCarousel", data-slide="prev")
-        span.glyphicon.glyphicon-chevron-left
-        span.sr-only Previous
-      a.right.carousel-control(href="#myCarousel", data-slide="next")
-        span.glyphicon.glyphicon-chevron-right
-        span.sr-only Next
+    //- Left and right controls
+    a.left.carousel-control(href="#myCarousel", data-slide="prev")
+      span.glyphicon.glyphicon-chevron-left
+      span.sr-only Previous
+    a.right.carousel-control(href="#myCarousel", data-slide="next")
+      span.glyphicon.glyphicon-chevron-right
+      span.sr-only Next
   br
   br
   br                

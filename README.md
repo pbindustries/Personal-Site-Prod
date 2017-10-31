@@ -17,3 +17,4 @@ My personal website, i will be adding my projects to this site.
 * Improve the appearance of the link section on the profile page
 * Change body background to grey
 * Add scrolling ticker widgets - http://widgets.freestockcharts.com/scrollingticker.aspx?type=gainers
+* Use Google Analytics
