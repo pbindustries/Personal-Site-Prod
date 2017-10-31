@@ -17,20 +17,9 @@ block content
           
           input(type='hidden', name='_csrf', value=_csrf)
           .form-group.col-lg-12
-            label.control-label.col-sm-2 Username
+            label.control-label.col-sm-2 Name
             .col-sm-10
-              input.form-control(type='', name='', id='', placeholder='Username', autofocus, required)
-     
-          .form-group.col-lg-12
-            label.control-label.col-sm-2 Password
-            .col-sm-10
-              input.form-control(type='', name='', id='', placeholder='Password', autofocus, required)
-               
-          .form-group.col-lg-12
-            label.control-label.col-sm-2(for='confirmPassword') Confirm Password
-            .col-sm-10
-              input.form-control(type='', name='', id='', placeholder='Confirm Password', autofocus, required)
-     
+              input.form-control(type='name', name='name', id='name', placeholder='Name', autofocus, required)
           .form-group.col-lg-12
             label.control-label.col-sm-2  Email Address
             .col-sm-10
@@ -40,8 +29,16 @@ block content
             label.control-label.col-sm-2  Confirm Email Address
             .col-sm-10
               input.form-control(type='', name='', id='', placeholder='Confirm Email', autofocus,required)
-      
-      
+          .form-group.col-lg-12
+            label.control-label.col-sm-2 Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Password', autofocus, required)
+               
+          .form-group.col-lg-12
+            label.control-label.col-sm-2(for='confirmPassword') Confirm Password
+            .col-sm-10
+              input.form-control(type='', name='', id='', placeholder='Confirm Password', autofocus, required)
+
           .form-group
             .col-sm-offset-2.col-sm-10
               .checkbox
