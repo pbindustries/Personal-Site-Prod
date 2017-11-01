@@ -5,7 +5,6 @@ My personal website, i will be adding my projects to this site.
 * Center form title text
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
 * Change Nav-bar layout so profile options are seperate from the rest of the options
-* Configure docker 
 * Set up AWS
 * Activate one.com site hosting and use given url
 * Make footer look more like the rest of the template
