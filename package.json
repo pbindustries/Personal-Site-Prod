@@ -11,7 +11,8 @@
   "scripts": {
     "start": "nodemon app.js",
     "test": "mocha --reporter spec",
-    "eslint": "eslint **/*.js"
+    "eslint": "eslint **/*.js",
+    "dockerst": "sudo docker-compose up web"
   },
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
