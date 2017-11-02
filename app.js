@@ -22,7 +22,7 @@ const multer = require('multer');
 
 // Router Dev
 // const router = require('./router');
-
+ 
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
  
 /**
@@ -65,7 +65,7 @@ mongoose.connection.on('error', (err) => {
  * Express configuration.
  */
 app.set('host', process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0');
-app.set('port', process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080);
+app.set('port', process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 5000);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 

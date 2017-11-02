@@ -12,7 +12,8 @@
     "start": "nodemon app.js",
     "test": "mocha --reporter spec",
     "eslint": "eslint **/*.js",
-    "dockerst": "sudo docker-compose up web"
+    "dockerst": "sudo docker-compose up web",
+    "dockerclear": "docker kill 6b079b3efee1 | docker kill 73071fb7f719"
   },
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
@@ -60,7 +61,8 @@
     "pug": "^2.0.0-rc.3",
     "request": "^2.81.0",
     "socket.io": "^2.0.4",
-    "validator": "^8.0.0"
+    "validator": "^8.0.0",
+    "yarn": "^1.2.1"
   },
   "devDependencies": {
     "chai": "^4.1.1",

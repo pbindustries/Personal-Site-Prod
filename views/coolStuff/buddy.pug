@@ -1,10 +1,6 @@
 extends ../layout
 
 block content
-  .container-fluid.text-center.bg-1
-    .jumbotron(style="background:transparent !important")
-      h1 Buddy 
-
   //- FIRST CONTAINER
   .carousel.slide#myCarousel(data-ride="carousel")
     //- Indicators
@@ -44,6 +40,12 @@ block content
     a.right.carousel-control(href="#myCarousel", data-slide="next")
       span.glyphicon.glyphicon-chevron-right
       span.sr-only Next
+  .main-text.hidden-xs
+    .col-md-12.text-center
+      br
+      br
+      br
+      h1 Buddy 
 
   .container-fluid.bg-5.text-center    
     br
