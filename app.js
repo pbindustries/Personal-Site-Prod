@@ -130,6 +130,8 @@ app.get('/resume', pagesController.resume);
 app.get('/resources', pagesController.resources);
 app.get('/about', pagesController.about);
 app.get('/rules', pagesController.rules);
+app.get('/problematic', pagesController.problematic);
+app.get('/summary', pagesController.summary);
 
 /**  
  * Cool Stuff Routes

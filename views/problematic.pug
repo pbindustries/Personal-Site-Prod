@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .container-fluid.topper.text-center.bg-1
+    .jumbotron(style="background:transparent !important")
+      h1 Problematic
+      .container#hoverPic
+        //- Find a good meme for this page
+        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy4.jpg", alt="Image", align="middle")
+
+  //- FIRST CONTAINER
+  .container-fluid.bg-5.text-center  
+    div
+
+    div.panel-group#accordion
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse1") Some Things I Find Problematic
+
+        div.panel-collapse.collapse.in#collapse1
+          div.panel-body
+            ul
+              li(class=(title === 'bootstrapSnippet') ? 'active' : undefined)
+                a(href='https://bootsnipp.com/') Code snippets for Bootstrap
+              li(class=(title === 'bootstrapSnippet') ? 'active' : undefined)
+                a(href='https://bootsnipp.com/') Code snippets for Bootstrap
+  br
+  br

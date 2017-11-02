@@ -84,8 +84,29 @@ exports.about = (req, res) => {
  * Game Rules page.
  */
 exports.rules = (req, res) => {
-  res.render('rules', {
+  res.render('myProjects/rules', {
     title: 'Rules'
   });
 };
+
+/**
+ * GET /
+ * Problematic page.
+ */
+exports.problematic = (req, res) => {
+  res.render('problematic', {
+    title: 'Problematic'
+  });
+};
+
+/**
+ * GET /
+ * Project Summaries
+ */
+exports.summary = (req, res) => {
+  res.render('myProjects/summary', {
+    title: 'Summary'
+  });
+};
+
 

@@ -17,8 +17,16 @@
               a(href='/contact') Contact Me
             li(class=(title === 'Resources') ? 'active' : undefined)
               a(href='/resources') Resources
-            li(class=(title === 'Rules') ? 'active' : undefined)
-              a(href='/rules') Game Rules
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Projects
+                span(class='caret')
+                  ul.dropdown-menu
+                    li
+                      a(href='/summary') Project Summary Page
+                    li(class=(title === 'Rules') ? 'active' : undefined)
+                      a(href='/rules') Game Rules
+            li(class=(title === 'Problematic') ? 'active' : undefined)
+              a(href='/problematic') Problematic
             li.dropdown
               a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
                 span(class='caret')
