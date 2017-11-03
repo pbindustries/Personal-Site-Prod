@@ -17,8 +17,6 @@ My personal website, i will be adding my projects to this site.
 * Use Google Analytics
 * Increase opacity of navbar so i can change the color of text back to white
 
-# Char Advice
-* add about page next to home page
 
 # Tips
 * Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page

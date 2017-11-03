@@ -1,11 +1,49 @@
 extends ../layout
 
 block content
-  .container-fluid.text-center.topper.bg-1
-    .jumbotron(style="background:transparent !important")
-      h1 My Projects
-      .container#hoverPic
-        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy2.jpg", alt="Image", align="middle")
+  //- FIRST CONTAINER
+  .carousel.slide#myCarousel(data-ride="carousel")
+    //- Indicators
+    ol.carousel-indicators
+      li.active(data-target="#myCarousel", data-slide-to="0")
+      li(data-target="#myCarousel", data-slide-to="1")
+      li(data-target="#myCarousel", data-slide-to="2")
+      li(data-target="#myCarousel", data-slide-to="3")
+      li(data-target="#myCarousel", data-slide-to="4")
+      li(data-target="#myCarousel", data-slide-to="5")
+      li(data-target="#myCarousel", data-slide-to="6")
+      li(data-target="#myCarousel", data-slide-to="7")
+
+    //- Wrapper for slides
+    .carousel-inner
+      .item.active
+        img.center(src="/images/buddy/buddy.jpg", alt="Pic1", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy2.jpg", alt="Pic2", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy4.jpg", alt="Pic4", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy5.jpg", alt="Pic5", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy6.jpg", alt="Pic6", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy7.jpg", alt="Pic7", height="2000", width="2000")
+      .item
+        img.center(src="/images/buddy/buddy8.jpg", alt="Pic8", height="2000", width="2000")
+
+    //- Left and right controls
+    a.left.carousel-control(href="#myCarousel", data-slide="prev")
+      span.glyphicon.glyphicon-chevron-left
+      span.sr-only Previous
+    a.right.carousel-control(href="#myCarousel", data-slide="next")
+      span.glyphicon.glyphicon-chevron-right
+      span.sr-only Next
+  .main-text.hidden-xs
+    .col-md-12.text-center
+      .jumbotron(style="background:transparent !important")
+        h1 My Projects
 
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center    
