@@ -1,6 +1,6 @@
 # Philip Bankier's Personal Website
 My personal website, i will be adding my projects to this site.
-#Future Dev
+# Future Dev
 * Add direct messaging to the contact page, instead of links for social media
 * Center form title text
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
@@ -15,3 +15,10 @@ My personal website, i will be adding my projects to this site.
 * Add specific username to profile page
 * Improve the appearance of the link section on the profile page
 * Use Google Analytics
+* Increase opacity of navbar so i can change the color of text back to white
+
+# Char Advice
+* add about page next to home page
+
+# Tips
+* Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page

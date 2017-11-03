@@ -5,9 +5,11 @@ html {
 
 body {
   width: 100%;
-  padding-top: 60px;
+  height: auto;
+  padding-top: 0px;
   margin-bottom: 75px;
   background-color: #DCDCDC;
+  margin:0px;
 }
 
 footer {
@@ -161,4 +163,8 @@ img.center {
 {
     color: #000;
     background-color: #FFF;
+}
+.carousel {
+  position: absolute; 
+  top: 0; 
 }

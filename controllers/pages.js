@@ -44,7 +44,7 @@ exports.resume = (req, res) => {
  * Buddy page.
  */
 exports.buddy = (req, res) => {
-  res.render('coolStuff/buddy', {
+  res.render('otherStuff/buddy', {
     title: 'Buddy'
   });
 };
@@ -54,7 +54,7 @@ exports.buddy = (req, res) => {
  * Boo page.
  */
 exports.boo = (req, res) => {
-  res.render('coolStuff/boo', {
+  res.render('otherStuff/boo', {
     title: 'Boo'
   });
 };
@@ -64,7 +64,7 @@ exports.boo = (req, res) => {
  * Articles page.
  */
 exports.articles = (req, res) => {
-  res.render('coolStuff/articles', {
+  res.render('otherStuff/articles', {
     title: 'Articles'
   });
 };
@@ -94,7 +94,7 @@ exports.rules = (req, res) => {
  * Problematic page.
  */
 exports.problematic = (req, res) => {
-  res.render('problematic', {
+  res.render('otherStuff/problematic', {
     title: 'Problematic'
   });
 };

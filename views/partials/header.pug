@@ -8,54 +8,54 @@
           span.icon-bar
           span.icon-bar
           span.icon-bar
-          a.navbar-brand.fa.fa-cube(href='/') Philip Bankier
+          a.navbar-brand.fa.fa-cube#headerText(href='/') Philip Bankier
         .collapse.navbar-collapse#navbar
           ul.nav.navbar-nav
             li(class=(title === 'Home') ? 'active' : undefined)
-              a(href='/') Home
+              a#headerText(href='/') Home
             li(class=(title === 'Contact') ? 'active' : undefined)
-              a(href='/contact') Contact Me
-            li(class=(title === 'Resources') ? 'active' : undefined)
-              a(href='/resources') Resources
+              a#headerText(href='/contact') Contact Me
             li.dropdown
-              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Projects
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Projects
                 span(class='caret')
                   ul.dropdown-menu
                     li
-                      a(href='/summary') Project Summary Page
+                      a#headerText(href='/summary') Project Summary Page
                     li(class=(title === 'Rules') ? 'active' : undefined)
-                      a(href='/rules') Game Rules
-            li(class=(title === 'Problematic') ? 'active' : undefined)
-              a(href='/problematic') Problematic
+                      a#headerText(href='/rules') Game Rules
             li.dropdown
-              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
                 span(class='caret')
                   ul.dropdown-menu
                     li(class=(title === 'About') ? 'active' : undefined)
-                      a(href='/about') About Me
+                      a#headerText(href='/about') About Me
                     li(class=(title === 'Resume') ? 'active' : undefined)
-                      a(href='/resume') My Resume
+                      a#headerText(href='/resume') My Resume
                     li(class=(title === 'Projects') ? 'active' : undefined)
-                      a(href='/projects') My Projects
+                      a#headerText(href='/projects') My Projects
             li.dropdown
-              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Cool Stuff
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Other Stuff
                 span(class='caret')
                   ul.dropdown-menu
                     li
-                      a(href='/buddy') Buddy
+                      a#headerText(href='/buddy') Buddy
                     li
-                      a(href='/boo') Boo
+                      a#headerText(href='/boo') Boo
                     li
-                      a(href='/articles') Articles
+                      a#headerText(href='/articles') Articles
+                    li(class=(title === 'Problematic') ? 'active' : undefined)
+                      a#headerText(href='/problematic') Problematic
+                    li(class=(title === 'Resources') ? 'active' : undefined)
+                      a#headerText(href='/resources') Resources
             li
-              a(href='/status') Status
+              a#headerText(href='/status') Status
 
           ul.nav.navbar-nav.navbar-right
             if !user
               li(class=(title === 'Login') ? 'active' : undefined)
-                a(href='/login') Login
+                a#headerText(href='/login') Login
               li(class=(title === 'Create Account') ? 'active' : undefined)
-                a(href='/signup') Create Account
+                a#headerText(href='/signup') Create Account
             else
               li.dropdown(class=(title === 'Account Management') ? 'active' : undefined)
                 a.dropdown-toggle(href='#', data-toggle='dropdown')

@@ -1,3 +1,7 @@
+.navbar-wrapper{ 
+  position:absolute
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -75,7 +79,10 @@ border: none;
 }
 
 .navbar-toggle .icon-bar{
-    color: #fff;
-    background: #fff;
+  color: #fff;
+  background: #fff;
 }
 
+#headerText {
+  color: #000000;
+}
