@@ -19,9 +19,7 @@ const passport = require('passport');
 const expressValidator = require('express-validator');
 const expressStatusMonitor = require('express-status-monitor');
 const multer = require('multer'); 
-
-// Router Dev
-// const router = require('./router');
+const routes = require('./routes')
  
 const upload = multer({ dest: path.join(__dirname, 'uploads') });
  
@@ -119,41 +117,30 @@ app.use((req, res, next) => {
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }));
 
 // Router Dev
-// app.use('/', router)
+app.use('/', routes)
 
-/**  
- * Primary routes
- */
-app.get('/', pagesController.home);
-app.get('/projects', pagesController.projects);
-app.get('/resume', pagesController.resume);
-app.get('/resources', pagesController.resources);
-app.get('/about', pagesController.about);
-app.get('/rules', pagesController.rules);
-app.get('/problematic', pagesController.problematic);
-app.get('/summary', pagesController.summary);
 
-/**  
- * Cool Stuff Routes
- */
-app.get('/buddy', pagesController.buddy);
-app.get('/boo', pagesController.boo);
-app.get('/articles', pagesController.articles);
+// /**  
+//  * Cool Stuff Routes
+//  */
+// app.get('/buddy', pagesController.buddy);
+// app.get('/boo', pagesController.boo);
+// app.get('/articles', pagesController.articles);
 
 /**   
  * Account routes
  */
-app.get('/login', userController.getLogin);
-app.post('/login', userController.postLogin);
-app.get('/logout', userController.logout);
-app.get('/forgot', userController.getForgot);
-app.post('/forgot', userController.postForgot);
-app.get('/reset/:token', userController.getReset);
-app.post('/reset/:token', userController.postReset);
-app.get('/signup', userController.getSignup);
-app.post('/signup', userController.postSignup);
-app.get('/contact', contactController.getContact);
-app.post('/contact', contactController.postContact);
+// app.get('/login', userController.getLogin);
+// app.post('/login', userController.postLogin);
+// app.get('/logout', userController.logout);
+// app.get('/forgot', userController.getForgot);
+// app.post('/forgot', userController.postForgot);
+// app.get('/reset/:token', userController.getReset);
+// app.post('/reset/:token', userController.postReset);
+// app.get('/signup', userController.getSignup);
+// app.post('/signup', userController.postSignup);
+// app.get('/contact', contactController.getContact);
+// app.post('/contact', contactController.postContact);
 app.get('/account', passportConfig.isAuthenticated, userController.getAccount);
 app.post('/account/profile', passportConfig.isAuthenticated, userController.postUpdateProfile);
 app.post('/account/password', passportConfig.isAuthenticated, userController.postUpdatePassword);
@@ -183,6 +170,7 @@ app.get('/auth/linkedin', passport.authenticate('linkedin', { state: 'SOME STATE
 app.get('/auth/linkedin/callback', passport.authenticate('linkedin', { failureRedirect: '/login' }), (req, res) => {
   res.redirect(req.session.returnTo || '/');
 });
+
 
 /**
  * Error Handler. 
