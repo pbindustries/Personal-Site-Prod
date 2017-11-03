@@ -28,11 +28,6 @@ textarea {
   resize: vertical; 
 }
 
-.topper {
-  position: absolute; 
-  top: 0; 
-}
-
 .alert {
   margin-top: 20px; 
 }
