@@ -30,6 +30,11 @@ router.route('/problematic').get(pagesController.problematic);
 router.route('/summary').get(pagesController.summary);
 
 /**  
+ * "For This Site" Routes
+ */
+router.route('/read').get(pagesController.read);
+
+/**  
  * Cool Stuff Routes
  */
 router.route('/buddy').get(pagesController.buddy);

@@ -109,4 +109,14 @@ exports.summary = (req, res) => {
   });
 };
 
+/**
+ * GET /
+ * Reading List Page
+ */
+exports.read = (req, res) => {
+  res.render('forThisSite/read', {
+    title: 'Read'
+  });
+};
+
 
