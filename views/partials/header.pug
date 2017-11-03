@@ -34,27 +34,27 @@
                     li(class=(title === 'Resume') ? 'active' : undefined)
                       a#headerText(href='/resume') My Resume
             li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Other Stuff
+              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Stuff
                 span(class='caret')
                   ul.dropdown-menu
                     li
                       a#headerText(href='/buddy') Buddy
                     li
                       a#headerText(href='/boo') Boo
+                    li.divider
                     li
                       a#headerText(href='/articles') Articles
                     li(class=(title === 'Problematic') ? 'active' : undefined)
                       a#headerText(href='/problematic') Problematic
                     li(class=(title === 'Resources') ? 'active' : undefined)
                       a#headerText(href='/resources') Resources
-                    li.dropdown
-                      a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Other Stuff
-                        span(class='caret')
-                          ul.dropdown-menu
-                            li
-                              a#headerText(href='/buddy') Buddy
-                            li
-                              a#headerText(href='/boo') Boo
+                    li.dropdown-submenu
+                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Stuff
+                        ul.dropdown-menu
+                          li
+                            a#headerText(href='/buddy') Buddy
+                          li
+                            a#headerText(href='/boo') Boo
             li
               a#headerText(href='/status') Status
 
