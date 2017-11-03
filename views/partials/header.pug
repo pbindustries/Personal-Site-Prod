@@ -47,6 +47,14 @@
                       a#headerText(href='/problematic') Problematic
                     li(class=(title === 'Resources') ? 'active' : undefined)
                       a#headerText(href='/resources') Resources
+                    li.dropdown
+                      a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Other Stuff
+                        span(class='caret')
+                          ul.dropdown-menu
+                            li
+                              a#headerText(href='/buddy') Buddy
+                            li
+                              a#headerText(href='/boo') Boo
             li
               a#headerText(href='/status') Status
 

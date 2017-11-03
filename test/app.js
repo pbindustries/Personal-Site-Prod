@@ -1,6 +1,7 @@
 const request = require('supertest');
 const app = require('../app.js');
 
+// Home Page
 describe('GET /', () => {
   it('should return 200 OK', (done) => {
     request(app)
@@ -9,6 +10,7 @@ describe('GET /', () => {
   });
 });
 
+// Login Page
 describe('GET /login', () => {
   it('should return 200 OK', (done) => {
     request(app)
@@ -17,6 +19,7 @@ describe('GET /login', () => {
   });
 });
 
+// Signup Page
 describe('GET /signup', () => {
   it('should return 200 OK', (done) => {
     request(app)
@@ -25,14 +28,7 @@ describe('GET /signup', () => {
   });
 });
 
-describe('GET /api', () => {
-  it('should return 200 OK', (done) => {
-    request(app)
-      .get('/api')
-      .expect(200, done);
-  });
-});
-
+// Contact Page
 describe('GET /contact', () => {
   it('should return 200 OK', (done) => {
     request(app)
@@ -41,6 +37,7 @@ describe('GET /contact', () => {
   });
 });
 
+// This test should fail
 describe('GET /random-url', () => {
   it('should return 404', (done) => {
     request(app)
@@ -48,3 +45,5 @@ describe('GET /random-url', () => {
       .expect(404, done);
   });
 });
+
+
