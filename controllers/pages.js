@@ -1,4 +1,5 @@
 
+// Main Pages /////////////////////////////////
 /**
  * GET /
  * Home page.
@@ -9,23 +10,14 @@ exports.home = (req, res) => {
   });
 };
 
+// My Things ////////////////////////////////////
 /**
  * GET /
- * Projects page.
+ * About page.
  */
-exports.projects = (req, res) => {
-  res.render('projects', {
-    title: 'Projects'
-  });
-};
-
-/**
- * GET /
- * Resources page.
- */
-exports.resources = (req, res) => {
-  res.render('resources', {
-    title: 'Resources'
+exports.about = (req, res) => {
+  res.render('myThings/about', {
+    title: 'About'
   });
 };
 
@@ -34,8 +26,39 @@ exports.resources = (req, res) => {
  * Resume page.
  */
 exports.resume = (req, res) => {
-  res.render('resume', {
+  res.render('myThings/resume', {
     title: 'Resume'
+  });
+};
+
+/**
+ * GET /
+ * Project Summaries
+ */
+exports.summary = (req, res) => {
+  res.render('myProjects/summary', {
+    title: 'Summary'
+  });
+};
+
+/**
+ * GET /
+ * Game Rules page.
+ */
+exports.rules = (req, res) => {
+  res.render('myProjects/rules', {
+    title: 'Rules'
+  });
+};
+
+// Other Stuff ////////////////////////////////////
+/**
+ * GET /
+ * Resources page.
+ */
+exports.resources = (req, res) => {
+  res.render('otherStuff/resources', {
+    title: 'Resources'
   });
 };
 
@@ -71,26 +94,6 @@ exports.articles = (req, res) => {
 
 /**
  * GET /
- * About page.
- */
-exports.about = (req, res) => {
-  res.render('about', {
-    title: 'About'
-  });
-};
-
-/**
- * GET /
- * Game Rules page.
- */
-exports.rules = (req, res) => {
-  res.render('myProjects/rules', {
-    title: 'Rules'
-  });
-};
-
-/**
- * GET /
  * Problematic page.
  */
 exports.problematic = (req, res) => {
@@ -99,16 +102,7 @@ exports.problematic = (req, res) => {
   });
 };
 
-/**
- * GET /
- * Project Summaries
- */
-exports.summary = (req, res) => {
-  res.render('myProjects/summary', {
-    title: 'Summary'
-  });
-};
-
+// For This Site ///////////////////////////////////
 /**
  * GET /
  * Reading List Page
@@ -118,5 +112,12 @@ exports.read = (req, res) => {
     title: 'Read'
   });
 };
+
+
+
+
+
+
+
 
 

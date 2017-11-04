@@ -13,56 +13,51 @@
           ul.nav.navbar-nav
             li(class=(title === 'Home') ? 'active' : undefined)
               a#headerText(href='/') Home
-            li(class=(title === 'About') ? 'active' : undefined)
-              a#headerText(href='/about') About Me
-            li(class=(title === 'Contact') ? 'active' : undefined)
-              a#headerText(href='/contact') Contact Me
-            li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") For This Site
-                span(class='caret')
-                  ul.dropdown-menu
-                    li
-                      a#headerText(href='/read') Need To Read
-            li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Projects
-                span(class='caret')
-                  ul.dropdown-menu
-                    li
-                      a#headerText(href='/summary') Project Summary Page
-                    li(class=(title === 'Rules') ? 'active' : undefined)
-                      a#headerText(href='/rules') Game Rules
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
                 span(class='caret')
                   ul.dropdown-menu
                     li(class=(title === 'About') ? 'active' : undefined)
                       a#headerText(href='/about') About Me
-                    li(class=(title === 'Resume') ? 'active' : undefined)
+                    li
                       a#headerText(href='/resume') My Resume
+                    li(class=(title === 'Contact') ? 'active' : undefined)
+                      a#headerText(href='/contact') Contact Me
+                    li.dropdown-submenu
+                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") My Projects
+                        ul.dropdown-menu
+                          li
+                            a#headerText(href='/summary') Project Summary Page
+                          li(class=(title === 'Rules') ? 'active' : undefined)
+                            a#headerText(href='/rules') Game Rules
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Stuff
                 span(class='caret')
                   ul.dropdown-menu
-                    li
-                      a#headerText(href='/buddy') Buddy
-                    li
-                      a#headerText(href='/boo') Boo
-                    li.divider
                     li
                       a#headerText(href='/articles') Articles
                     li(class=(title === 'Problematic') ? 'active' : undefined)
                       a#headerText(href='/problematic') Problematic
                     li(class=(title === 'Resources') ? 'active' : undefined)
                       a#headerText(href='/resources') Resources
+                    li.divider
                     li.dropdown-submenu
-                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Stuff
+                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Awesome Pets
                         ul.dropdown-menu
                           li
                             a#headerText(href='/buddy') Buddy
                           li
                             a#headerText(href='/boo') Boo
-            li
-              a#headerText(href='/status') Status
+            li.dropdown
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") For This Site
+                span(class='caret')
+                  ul.dropdown-menu
+                    li
+                      a#headerText(href='/read') Need To Read
+
+            //- //- Turn on for status monitor
+            //- li
+            //-   a#headerText(href='/status') Status
 
           ul.nav.navbar-nav.navbar-right
             if !user

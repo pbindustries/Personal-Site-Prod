@@ -16,6 +16,7 @@ My personal website, i will be adding my projects to this site.
 * Improve the appearance of the link section on the profile page
 * Use Google Analytics
 * Increase opacity of navbar so i can change the color of text back to white
+* Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
 
 
 # Tips

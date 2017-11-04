@@ -21,7 +21,6 @@ var router = express.Router();
  * Primary routes
  */
 router.route('/').get(pagesController.home);
-router.route('/projects').get(pagesController.projects);
 router.route('/resume').get(pagesController.resume);
 router.route('/resources').get(pagesController.resources);
 router.route('/about').get(pagesController.about);
