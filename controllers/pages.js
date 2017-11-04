@@ -36,7 +36,7 @@ exports.resume = (req, res) => {
  * Project Summaries
  */
 exports.summary = (req, res) => {
-  res.render('myProjects/summary', {
+  res.render('summary', {
     title: 'Summary'
   });
 };
@@ -46,7 +46,7 @@ exports.summary = (req, res) => {
  * Game Rules page.
  */
 exports.rules = (req, res) => {
-  res.render('myProjects/rules', {
+  res.render('rules', {
     title: 'Rules'
   });
 };
