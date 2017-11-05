@@ -28,6 +28,10 @@ textarea {
   resize: vertical; 
 }
 
+button:hover {
+  background: #CF4647;
+}
+
 .alert {
   margin-top: 20px; 
 }
