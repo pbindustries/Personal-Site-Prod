@@ -9,14 +9,13 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
-    }
+}
 
 .navbar {
   width: 100%;
-  background-color: #DCDCDC;
 }
 
+/*For profile pic or gravatar*/
 .navbar-nav img {
   width: 30px;
   height: 30px;
@@ -24,8 +23,8 @@
 }
 
 .navbar, .dropdown-menu{
-background:rgba(255,255,255,0.25);
-border: none;
+  background:rgba(101,153,255,0.50);
+  border: none;
 }
 
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
@@ -81,10 +80,6 @@ border: none;
 .navbar-toggle .icon-bar{
   color: #fff;
   background: #fff;
-}
-
-#headerText {
-  color: #000000;
 }
 
 .dropdown-submenu {
