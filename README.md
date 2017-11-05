@@ -19,6 +19,7 @@ My personal website, i will be adding my projects to this site.
 * Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
 * Make navbar solid when scrolling and opaque at top of page -https://theme.co/apex/forums/topic/transparent-navbar-to-solid-on-scroll/
 * move jumbotron to middle of 
+* Add up button http://jquery-plugins.net/jquery-goup-jquery-scroll-to-top-plugin
 
 
 # Tips
