@@ -8,7 +8,7 @@ block content
         img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy4.jpg", alt="Image", align="middle")
 
   //- FIRST CONTAINER
-  .container-fluid.bg-5.text-center  
+  .container-fluid.bg-5.text-center.bot   
     div
 
     div.panel-group#accordion
@@ -52,6 +52,17 @@ block content
       div.panel.panel-default
         div.panel-heading
           h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse3") Gulp
+
+        div.panel-collapse.collapse.in#collapse3
+          div.panel-body
+            ul
+              li
+                a(href='http://blog.rangle.io/angular-gulp-bestpractices/') Gulp Best Practices
+
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
             a(data-toggle="collapse", data-parent="#accordion", href="#collapse4") Other
 
         div.panel-collapse.collapse.in#collapse4
@@ -62,3 +73,5 @@ block content
   br
   br
   br
+
+    

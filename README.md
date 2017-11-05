@@ -8,18 +8,14 @@ My personal website, i will be adding my projects to this site.
 * Set up AWS
 * Activate one.com site hosting and use given url
 * Make footer look more like the rest of the template
-* Improve Nav-bar and Footer
 * Integrate projects 
 * Add direct social media messaging on contact form 
 * Improve form appearance
 * Add specific username to profile page
 * Improve the appearance of the link section on the profile page
 * Use Google Analytics
-* Increase opacity of navbar so i can change the color of text back to white
 * Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
-* Make navbar solid when scrolling and opaque at top of page -https://theme.co/apex/forums/topic/transparent-navbar-to-solid-on-scroll/
-* move jumbotron to middle of 
-* Add up button http://jquery-plugins.net/jquery-goup-jquery-scroll-to-top-plugin
+* Add up button - http://jquery-plugins.net/jquery-goup-jquery-scroll-to-top-plugin
 
 
 # Tips
