@@ -16,6 +16,8 @@ My personal website, i will be adding my projects to this site.
 * Add parallax effect to picture on home page
 * Add babel
 * start using webpack
+* Add galaxy to home page - https://codepen.io/davidkpiano/pen/aVvpbo
+* Add social buttons - https://lipis.github.io/bootstrap-social/
 
 
 # Tips
