@@ -1,11 +1,13 @@
 extends ../layout
 
 block content
-  .container-fluid.text-center.bg-1
-    .jumbotron(style="background:transparent !important")
-      h1 Resources
-      .container#hoverPic
-        img.img-responsive.margin#preHoverPic(src="/images/buddy/buddy4.jpg", alt="Image", align="middle")
+  .carousel.slide#myCarousel(data-ride="carousel")
+    //- Wrapper for slides
+    .carousel-inner
+      .item.active
+        img.center.buddy1(src="/images/buddy/buddylong.jpg", alt="Pic1", height="2000", width="2000")
+        .carousel-caption
+          h1 Resources
 
   //- FIRST CONTAINER
   .container-fluid.bg-5.text-center.bot   
@@ -83,8 +85,21 @@ block content
             ul
               li
                 a(href='https://codepen.io/ge1doot/pen/OOyOGo') Cool Particle Screen
-  br
-  br
-  br
 
+      div.panel.panel-default
+        div.panel-heading
+          h4.panel-title
+            a(data-toggle="collapse", data-parent="#accordion", href="#collapse4") Other Things
+
+        div.panel-collapse.collapse.in#collapse4
+          div.panel-body
+            ul
+              li
+                a(href='https://github.com/sahat/hackathon-starter') Hackathon Starter
+  br
+  br
+  br
+  br
+  br
+  br
     

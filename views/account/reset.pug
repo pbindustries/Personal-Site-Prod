@@ -1,16 +1,30 @@
 extends ../layout
 
 block content
-  .col-sm-8.col-sm-offset-2
-    form(method='POST')
-      legend Reset Password
-      input(type='hidden', name='_csrf', value=_csrf)
-      .form-group
-        label(for='password') New Password
-        input.form-control(type='password', name='password', id='password', placeholder='New password', autofocus, required)
-      .form-group
-        label(for='confirm') Confirm Password
-        input.form-control(type='password', name='confirm', id='confirm', placeholder='Confirm password', required)
-      .form-group
-        button.btn.btn-primary.btn-reset(type='submit')
-          i.fa.fa-keyboard-o Change Password
+  //- FIRST CONTAINER
+  .carousel.slide#myCarousel(data-ride="carousel")
+
+    //- Wrapper for slides
+    .carousel-inner
+      .item.active
+        img.center(src="/images/buddy/buddy.jpg", alt="Pic1", height="2000", width="2000")
+
+  .main-text.hidden-xs
+    .col-md-12.text-center
+      .jumbotron(style="background:transparent !important")
+        h1 Forgot Password
+
+  .container-fluid.text-center.bg-7.bot
+    .col-sm-8.col-sm-offset-2
+      form(method='POST')
+        legend Reset Password
+        input(type='hidden', name='_csrf', value=_csrf)
+        .form-group
+          label(for='password') New Password
+          input.form-control(type='password', name='password', id='password', placeholder='New password', autofocus, required)
+        .form-group
+          label(for='confirm') Confirm Password
+          input.form-control(type='password', name='confirm', id='confirm', placeholder='Confirm password', required)
+        .form-group
+          button.btn.btn-primary.btn-reset(type='submit')
+            i.fa.fa-keyboard-o Change Password
