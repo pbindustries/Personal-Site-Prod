@@ -1,7 +1,6 @@
 /**
  * Module dependencies.
  */
-
 const express = require('express');
 const compression = require('compression');
 const session = require('express-session');
@@ -33,15 +32,8 @@ dotenv.load({ path: '.env' });
 /**
  * Controllers (route handlers).
  */
-const userController = require('./controllers/user');
-const apiController = require('./controllers/api');
 const contactController = require('./controllers/contact');
 const pagesController = require('./controllers/pages');
-
-/**
- * API keys and Passport configuration.
- */
-const passportConfig = require('./config/passport');
 
 /**
  * Create Express server.
@@ -86,9 +78,9 @@ app.use(session({
     clear_interval: 3600
   })
 }));
-app.use(passport.initialize());
-app.use(passport.session());  // persistent login sessions
+
 app.use(flash());  // use express-flash for flash messages stored in session
+
 app.use((req, res, next) => {
   if (req.path === '/api/upload') {
     next();
@@ -98,61 +90,11 @@ app.use((req, res, next) => {
 });
 app.use(lusca.xframe('SAMEORIGIN'));
 app.use(lusca.xssProtection(true));
-app.use((req, res, next) => {
-  res.locals.user = req.user;
-  next();
-});
-app.use((req, res, next) => {
-  // After successful login, redirect back to the intended page
-  if (!req.user &&
-      req.path !== '/login' &&
-      req.path !== '/signup' &&
-      !req.path.match(/^\/auth/) &&
-      !req.path.match(/\./)) {
-    req.session.returnTo = req.path;
-  } else if (req.user &&
-      req.path === '/account') {
-    req.session.returnTo = req.path;
-  }
-  next();
-});
+
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }));
 
 // Router Dev
 app.use('/', routes)
-
-/**   
- * Account routes
- */
-app.get('/account', passportConfig.isAuthenticated, userController.getAccount);
-app.post('/account/profile', passportConfig.isAuthenticated, userController.postUpdateProfile);
-app.post('/account/password', passportConfig.isAuthenticated, userController.postUpdatePassword);
-app.post('/account/delete', passportConfig.isAuthenticated, userController.postDeleteAccount);
-app.get('/account/unlink/:provider', passportConfig.isAuthenticated, userController.getOauthUnlink);
-
-/** 
- * API examples routes.
- */
-app.get('/api', apiController.getApi);
-app.get('/api/scraping', apiController.getScraping);
-app.get('/api/facebook', passportConfig.isAuthenticated, passportConfig.isAuthorized, apiController.getFacebook);
-app.get('/api/linkedin', passportConfig.isAuthenticated, passportConfig.isAuthorized, apiController.getLinkedin);
-
-/**
- * OAuth authentication routes. (Sign in)
- */
-app.get('/auth/facebook', passport.authenticate('facebook', { scope: ['email', 'public_profile'] }));
-app.get('/auth/facebook/callback', passport.authenticate('facebook', { failureRedirect: '/login' }), (req, res) => {
-  res.redirect(req.session.returnTo || '/');
-});
-app.get('/auth/google', passport.authenticate('google', { scope: 'profile email' }));
-app.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/login' }), (req, res) => {
-  res.redirect(req.session.returnTo || '/');
-});
-app.get('/auth/linkedin', passport.authenticate('linkedin', { state: 'SOME STATE' }));
-app.get('/auth/linkedin/callback', passport.authenticate('linkedin', { failureRedirect: '/login' }), (req, res) => {
-  res.redirect(req.session.returnTo || '/');
-});
 
 /**
  * Error Handler. 
