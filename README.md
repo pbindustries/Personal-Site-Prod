@@ -13,7 +13,6 @@ My personal website, i will be adding my projects to this site.
 * Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
 * Add up button - http://jquery-plugins.net/jquery-goup-jquery-scroll-to-top-plugin
 * Fix login 
-* Add parallax effect to picture on home page
 * Add babel
 * start using webpack
 * Add galaxy to home page - https://codepen.io/davidkpiano/pen/aVvpbo
