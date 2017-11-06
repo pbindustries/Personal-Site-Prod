@@ -66,7 +66,7 @@ mongoose.connection.on('error', (err) => {
  */
 app.set('host', process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0');
 app.set('port', process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 5000);
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));  // directories for the application's views
 app.set('view engine', 'pug');
 
 // // express application status monitor
@@ -162,7 +162,7 @@ app.use(errorHandler());
 /**
  * Start Express server.
  */
-server.listen(app.get('port'), () => {
+server.listen(app.get('port'), '0.0.0.0', () => {
   console.log('%s App is running at http://localhost:%d in %s mode', chalk.green('✓'), app.get('port'), app.get('env'));
   console.log('  Press CTRL-C to stop\n');
 });

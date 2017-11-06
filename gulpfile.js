@@ -11,9 +11,9 @@ gulp.task('browser-sync', ['nodemon'], function() {
 	browserSync.init(null, {
 		proxy: "http://localhost:5000",
         files: ["public/**/*.*"],
-        browser: "google chrome",
-        port: 7000,
-        open: false,
+		browser: ["google chrome", "firefox"],
+        // port: 7000, // Do i need this?
+        open: false, //Open browser when project is run
 	});
 });
 gulp.task('nodemon', function (cb) {
@@ -29,3 +29,4 @@ gulp.task('nodemon', function (cb) {
 		} 
 	});
 });
+
