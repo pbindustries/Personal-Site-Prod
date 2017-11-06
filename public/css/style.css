@@ -153,9 +153,6 @@ img.center {
 
 /*Parallax*/
 .parallax {
-	/* The image used */
-	background-image: url("/images/buddy/buddylong.jpg");
-
 	/* Set a specific height */
 	min-height: 950px; 
 
@@ -164,4 +161,12 @@ img.center {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.bud1 {
+	background-image: url("/images/buddy/buddylong.jpg");
+}
+
+.bud2 {
+	background-image: url("/images/buddy/buddy2.jpg");
 }

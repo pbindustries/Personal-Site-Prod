@@ -18,10 +18,6 @@ $(window).scroll(function () {
 // Start RYPP for youtube player
 $(document).ready(function() {
 
-   // You need a valid API Key
-   // In the creation process you can define in which websites
-   // can be used, to avoid unnapropiated uses
-
   // Figure out why this isnt working
   // var api_key = process.env.YOUTUBE_KEY;
   var api_key = 'AIzaSyBYF2ckgQfblmixbe-5VGdh5UXjprm9OJg';
