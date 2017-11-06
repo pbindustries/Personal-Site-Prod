@@ -45,3 +45,10 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// Cube photo gallery
+$('.carousel-demo').jR3DCarousel({
+  width : 600,       
+  height: 450,   
+  slides: slides,
+  animation: "slide3D"
+});

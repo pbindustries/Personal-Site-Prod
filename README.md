@@ -3,12 +3,12 @@ My personal website, i will be adding my projects to this site.
 
 # Future Dev
 ## Page Appearance And Content
-* About me - Add skills, about and more content
-* Articles page - Add articles and improve appearance
-* Problematic - Add content and improve appearance
-* Resources - Improve appearance
-* Need to Read - Improve appearance
-* Contact Me - Make form opaque and move onto the picture
+### About me - Add skills, about and more content
+### Articles page - Add articles and improve appearance
+### Problematic - Add content and improve appearance
+### Resources - Improve appearance
+### Need to Read - Improve appearance
+### Contact Me - Make form opaque and move onto the picture
 
 * Add direct messaging to the contact page, instead of links for social media
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
