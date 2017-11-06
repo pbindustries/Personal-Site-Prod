@@ -50,7 +50,7 @@ var RYPP = (function($, undefined) {
       // Default options
       this.options = {
         update_title_desc: false,
-        autoplay: true,
+        autoplay: false,
         autonext: true,
         loop: true,
         mute: false,
