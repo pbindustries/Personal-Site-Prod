@@ -19,6 +19,7 @@ My personal website, i will be adding my projects to this site.
 * Add galaxy to home page - https://codepen.io/davidkpiano/pen/aVvpbo
 * Add social buttons - https://lipis.github.io/bootstrap-social/
 * Add picture light slider - http://jquery-plugins.net/jquery-lightslider-lightweight-responsive-content-slider
+* Add quote slideshow
 
 # Tips
 * Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page

@@ -1,61 +1,61 @@
 html {
-position:relative;
-min-height:100%;
+	position:relative;
+	min-height:100%;
 }
 
 body {
-width:100%;
-height:auto;
-padding-top:0;
-background-color:#DCDCDC;
-margin:0;
+	width:100%;
+	height:auto;
+	padding-top:0;
+	background-color:#DCDCDC;
+	margin:0;
 }
 
 footer {
-position:absolute;
-bottom:0;
-width:100%;
-line-height:45px;
-padding-top:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	line-height:45px;
+	padding-top:10px;
 }
 
 footer p,footer ul {
-margin-bottom:0;
+	margin-bottom:0;
 }
 
 button:hover {
-background:#CF4647;
+	background:#CF4647;
 }
 
 .alert {
-margin-top:20px;
+	margin-top:20px;
 }
 
 .thumbnail {
-padding:0;
+	padding:0;
 }
 
 .fa {
-margin-right:6px;
+	margin-right:6px;
 }
 
 .bg-1 {
-background-color:#6599FF;
-color:#fff;
+	background-color:#6599FF;
+	color:#fff;
 }
 
 .bg-2 {
-background-color:#474e5d;
-color:#fff;
+	background-color:#474e5d;
+	color:#fff;
 }
 
 .bg-3 {
-background-color:#2f2f2f;
-color:#fff;
+	background-color:#2f2f2f;
+	color:#fff;
 }
 
 .bg-4 {
-background-color:#fff;
+	background-color:#fff;
 }
 
 .bg-5 {
@@ -63,90 +63,105 @@ background-color:#DCDCDC;
 }
 
 .bg-6 {
-background-color:#1F3A93;
-color:#fff;
+	background-color:#1F3A93;
+	color:#fff;
 }
 
 .bg-7 {
-background-color:#B0B0B0;
+	background-color:#B0B0B0;
 }
 
 .bg-8 {
-background-color:#000;
+	background-color:#000;
 }
 
 #preHoverPic {
-display:block;
-width:100%;
-height:auto;
-margin:auto;
+	display:block;
+	width:100%;
+	height:auto;
+	margin:auto;
 }
 
 .middle {
-position:absolute;
-top:50%;
-left:50%;
+	position:absolute;
+	top:50%;
+	left:50%;
 }
 
 #hoverText {
-background-color:#DCDCDC;
-color:#FFF;
-font-size:16px;
-text-decoration:none;
-padding:16px 32px;
+	background-color:#DCDCDC;
+	color:#FFF;
+	font-size:16px;
+	text-decoration:none;
+	padding:16px 32px;
 }
 
 #resume {
-display:block;
-width:110%;
-height:auto;
-margin:auto;
+	display:block;
+	width:110%;
+	height:auto;
+	margin:auto;
 }
 
 img.center {
-display:block;
-margin:0 auto;
+	display:block;
+	margin:0 auto;
 }
 
 .main-text {
-position:absolute;
-top:50px;
-width:96.666666666667%;
-color:#FFF;
+	position:absolute;
+	top:50px;
+	width:96.666666666667%;
+	color:#FFF;
 }
 
 .btn-min-block {
-min-width:170px;
-line-height:26px;
+	min-width:170px;
+	line-height:26px;
 }
 
 .btn-clear {
-color:#FFF;
-background-color:transparent;
-margin-right:15px;
-border-color:#FFF;
+	color:#FFF;
+	background-color:transparent;
+	margin-right:15px;
+	border-color:#FFF;
 }
 
 .btn-clear:hover {
-color:#000;
-background-color:#FFF;
+	color:#000;
+	background-color:#FFF;
 }
 
 .carousel {
-position:absolute;
-top:0;
+	position:absolute;
+	top:0;
 }
 
 .carousel-caption {
-position:absolute;
-top:30%;
-color:#FFF;
-bottom:auto;
+	position:absolute;
+	top:30%;
+	color:#FFF;
+	bottom:auto;
 }
 
 .bot {
-overflow:hidden;
-display:block;
-position:relative;
-padding-bottom:300px;
+	overflow:hidden;
+	display:block;
+	position:relative;
+	padding-bottom:300px;
+}
+
+/*Parallax*/
+.parallax {
+	/* The image used */
+	background-image: url("/images/buddy/buddylong.jpg");
+
+	/* Set a specific height */
+	min-height: 950px; 
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }

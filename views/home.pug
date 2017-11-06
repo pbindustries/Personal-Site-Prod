@@ -3,21 +3,9 @@ extends layout
 block content
   
   .carousel.slide#myCarousel(data-ride="carousel")
-    //- Indicators
-    //- ol.carousel-indicators
-    //-   li.active(data-target="#myCarousel", data-slide-to="0")
-      //- li(data-target="#myCarousel", data-slide-to="1")
-      //- li(data-target="#myCarousel", data-slide-to="2")
-      //- li(data-target="#myCarousel", data-slide-to="3")
-      //- li(data-target="#myCarousel", data-slide-to="4")
-      //- li(data-target="#myCarousel", data-slide-to="5")
-      //- li(data-target="#myCarousel", data-slide-to="6")
-      //- li(data-target="#myCarousel", data-slide-to="7")
-
-    //- Wrapper for slides
     .carousel-inner
       .item.active
-        img.center.buddy1(src="/images/buddy/buddylong.jpg", alt="Pic1", height="2000", width="2000")
+        .parallax
         .carousel-caption
           h1 Philip Bankier's Personal Website
             br
@@ -26,60 +14,6 @@ block content
                 h3 Website Github
               a.btn.btn-clear(type="button", href="/buddy") 
                 h3 More Pictures of Buddy       
-
-      //- .item 
-      //-   img.center.buddy2(src="/images/buddy/buddy2.jpg", alt="Pic2", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 2
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy3(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 3
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy4(src="/images/buddy/buddy4.jpg", alt="Pic4", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 4
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy5(src="/images/buddy/buddy5.jpg", alt="Pic5", height="2000", width="2000" )
-      //-   .carousel-caption
-      //-     h3 Buddy 5
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy6(src="/images/buddy/buddy6.jpg", alt="Pic6", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 6
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy7(src="/images/buddy/buddy7.jpg", alt="Pic7", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 7
-      //-     p This is Buddy _
-      //- .item
-      //-   img.center.buddy8(src="/images/buddy/buddy8.jpg", alt="Pic8", height="2000", width="2000")
-      //-   .carousel-caption
-      //-     h3 Buddy 8
-      //-     p This is Buddy _
-
-    //- //- Left and right controls
-    //- a.left.carousel-control(href="#myCarousel", data-slide="prev")
-    //-   span.glyphicon.glyphicon-chevron-left
-    //-   span.sr-only Previous
-    //- a.right.carousel-control(href="#myCarousel", data-slide="next")
-    //-   span.glyphicon.glyphicon-chevron-right
-    //-   span.sr-only Next
-
-  //- //- FIRST CONTAINER
-  //- .container-fluid.bg-7
-  //-   //- Lightbox Dev
-  //-   div#lightgallery
-  //-     a(href="/images/rock.jpg")
-  //-       img(src="/images/rock.jpg")
-  //-     a(href="/images/yoga.jpg")
-  //-       img(src="/images/yoga.jpg")
-
 
   .container-fluid.bg-1.text-center 
     br
