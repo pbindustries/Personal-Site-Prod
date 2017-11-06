@@ -14,3 +14,19 @@ $(window).scroll(function () {
 		$('.navbar').css('background','rgba(101,153,255,0.50)');
 	}
 });
+
+// Start RYPP for youtube player
+$(document).ready(function() {
+
+   // You need a valid API Key
+   // In the creation process you can define in which websites
+   // can be used, to avoid unnapropiated uses
+
+  // Figure out why this isnt working
+  // var api_key = process.env.YOUTUBE_KEY;
+  var api_key = 'AIzaSyBYF2ckgQfblmixbe-5VGdh5UXjprm9OJg';
+
+
+   // Initialize all the player in the page with default options
+  $('.RYPP').rypp( api_key );
+});
