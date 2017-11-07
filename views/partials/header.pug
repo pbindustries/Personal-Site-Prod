@@ -13,14 +13,17 @@
           ul.nav.navbar-nav
             li(class=(title === 'Home') ? 'active' : undefined)
               a#headerText(href='/') Home
+            li(class=(title === 'About') ? 'active' : undefined)
+              a#headerText(href='/about') About Me
+            li(class=(title === 'Contact') ? 'active' : undefined)
+              a#headerText(href='/contact') Contact Me
             li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Things
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") More Info About Me
                 span(class='caret')
                   ul.dropdown-menu
                     li
-                      a#headerText(href='/likes') Some Things I Like
-                    li
                       a#headerText(href='/resume') My Resume
+                    li.divider
                     li.dropdown-submenu
                       a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") My Projects
                         ul.dropdown-menu
@@ -51,7 +54,7 @@
                           li
                             a#headerText(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
             li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Stuff
+              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Interesting 
                 span(class='caret')
                   ul.dropdown-menu
                     li
@@ -60,21 +63,19 @@
                       a#headerText(href='/problematic') Problematic
                     li
                       a#headerText(href='/resources') Resources
-                    li.divider
-                    li.dropdown-submenu
-                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Awesome Pets
-                        ul.dropdown-menu
-                          li
-                            a#headerText(href='/buddy') Buddy
-                          li
-                            a#headerText(href='/boo') Boo
             
             //- //- Turn on for status monitor
             //- li
             //-   a#headerText(href='/status') Status
 
           ul.nav.navbar-nav.navbar-right
-            li(class=(title === 'About') ? 'active' : undefined)
-              a#headerText(href='/about') About Me
-            li(class=(title === 'Contact') ? 'active' : undefined)
-              a#headerText(href='/contact') Contact Me
+            li
+              a#headerText(href='/likes') Some Things I Like
+            li.dropdown
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Awesome Pets
+                span(class='caret')
+                ul.dropdown-menu
+                  li
+                    a#headerText(href='/buddy') Buddy
+                  li
+                    a#headerText(href='/boo') Boo
