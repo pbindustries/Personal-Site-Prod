@@ -52,3 +52,13 @@ $('.carousel-demo').jR3DCarousel({
   slides: slides,
   animation: "slide3D"
 });
+
+// Responsive Quote Carousel 
+// Run this function when DOM is ready
+$(document).ready(function() { 
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pauseOnHover: true,
+    interval: 1000,
+  });
+});

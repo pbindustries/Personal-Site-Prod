@@ -76,95 +76,115 @@ block content
     br
     br
   
-  .container-fluid.bg-5.text-center.bot  
+  .container-fluid.bg-9.text-center.bot  
     br
     br
-    h1 Some Interesting Quotes
-    //- Put stocks here
+    br
+    br
+    .container.bg-5
+      br
+      .row
+        .col-md-offset-2.col-md-8.text-center
+        h1 Some Interesting Quotes
+      
+      .row
+        .col-md-offset-2.col-md-8
+          .carousel.slide#quote-carousel(data-ride="carousel")
+            ol.carousel-indicators
+              li.active(data-target="#quote-carousel" data-slide-to="0") 
+              li(data-target="#quote-carousel" data-slide-to="1") 
+              li(data-target="#quote-carousel" data-slide-to="2") 
+              li(data-target="#quote-carousel" data-slide-to="3") 
+              li(data-target="#quote-carousel" data-slide-to="4")
+              li(data-target="#quote-carousel" data-slide-to="5") 
+              li(data-target="#quote-carousel" data-slide-to="6")
+              li(data-target="#quote-carousel" data-slide-to="7") 
+            .carousel-inner
+              
+              //- Quote 1 
+              .item.active
+                blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p Too often we enjoy the comfort of opinion without the discomfort of thought
+                      small John F. Kennedy
 
-  .container-fluid.bg-4.text-center  
-    .parallax.bud2
-      br
-      br
-      h1 Some Interesting Quotes
-      .row
-        br
-        br
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Too often we enjoy the comfort of opinion without the discomfort of thought"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left John F. Kennedy
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The idea was wonderful, it was only the reality that did not cooperate"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Thomas Sowell
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Money doesn't change people, it just makes them be who they really are"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Abe Simpson
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The problem with socialism is that you eventually run out of other peoples' money"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Margaret Thatcher
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        
-      //- Second Row of Quotes
-      .row
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Free market capitalism is the worst economic system except for every other system ever tried"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Sir Winston Churchill
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The idea was wonderful, it was only the reality that did not cooperate"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Thomas Sowell
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "One of the great mistakes is to judge policies and programs by their intentions, rather than their results. We all know a famous road that is paved with good intentions. The people who go around talking about their 'soft heart,'--I admire them for the softness of their heart, but very often it extends to their head as well."
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Milton Friedman
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The first lesson of economics is scarcity: there is never enough of anything to fully satisfy all those who want it. The first lesson of politics is to disregard the first lesson of economics."
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left 
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
+              //- Quote 2
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p The idea was wonderful, it was only the reality that did not cooperate
+                      small Thomas Sowell
+
+              //- Quote 3
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p Money doesn't change people, it just makes them be who they really are
+                      small Abe Simpson
+
+              //- Quote 4
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p The problem with socialism is that you eventually run out of other peoples' money
+                      small Margaret Thatcher
+
+              //- Quote 5
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p Free market capitalism is the worst economic system except for every other system ever tried
+                      small Sir Winston Churchill
+
+              //- Quote 6
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p The idea was wonderful, it was only the reality that did not cooperate
+                      small Thomas Sowell
+
+              //- Quote 7
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p One of the great mistakes is to judge policies and programs by their intentions, rather than their results. We all know a famous road that is paved with good intentions. The people who go around talking about their 'soft heart,'--I admire them for the softness of their heart, but very often it extends to their head as well.
+                      small Milton Friedman
+
+              //- Quote 8
+              .item
+                 blockquote
+                  .row
+                    .col-sm-3.text-center
+                      img.img-circle(src="http://wp-desk.com/lovinflat/images/persons/person_1.png", style="width: 100px;height:100px;")
+                    .col-sm-9
+                      p The first lesson of economics is scarcity: there is never enough of anything to fully satisfy all those who want it. The first lesson of politics is to disregard the first lesson of economics.
+                      small Thomas Sowell
+
+            a.left.carousel-control(data-slide="prev", href="#quote-carousel")
+              i.fa.fa-chevron-left
+            a.right.carousel-control(data-slide="next", href="#quote-carousel")
+              i.fa.fa-chevron-right
     br
     br
     br
