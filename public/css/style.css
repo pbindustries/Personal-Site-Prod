@@ -167,6 +167,7 @@ img.center {
 .bud1 {
 	background-image: url("/images/buddy/buddylong.jpg");
 	/* Set a specific height */
+	width: 100%;
 	min-height: 950px; 
 }
 
@@ -210,7 +211,20 @@ img.center {
 	z-index: 1;
 }
 
-#large-header {
+.large-header2 {
+	position: relative;
+	width: 100%;
+	max-height: 1000px;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+
+
+#home {
 	background-image: url('http://cdn.paper4pc.com/images/blue-space-wallpaper-4.jpg');
 
 	/* Create the parallax scrolling effect */
@@ -219,6 +233,18 @@ img.center {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+#buddy {
+	background-image: url('/images/buddy/buddylong.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 
 .main-title {
 	position: absolute;

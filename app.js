@@ -12,7 +12,6 @@ const lusca = require('lusca');
 const dotenv = require('dotenv');
 const flash = require('express-flash');
 const path = require('path');
-const passport = require('passport');
 const expressValidator = require('express-validator');
 const multer = require('multer'); 
 const routes = require('./routes')
