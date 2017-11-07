@@ -8,16 +8,16 @@ html
     meta(name='csrf-token', content=_csrf)
     title #{title} - Philip Bankier
     link(rel='icon', href='/favicon.png', type="image/png")
-    link(rel='stylesheet', href='/css/navbar.css')
     link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/navbar.css')
     link(rel='stylesheet', href='/css/3d.css')
     link(rel='stylesheet', href='/css/quote.css')
-    link(rel='stylesheet', href='/css/about.css')
     link(rel='stylesheet', href='/css/about.css')
     link(rel='stylesheet', href='/css/Footer-with-social-icons.css')
     link(rel='stylesheet', href='/css/RYPP.css')
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
     link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(href='https://fonts.googleapis.com/css?family=Raleway:200,400,800', rel='stylesheet', type='text/css')
     script(src='/socket.io/socket.io.js')
     script.
       let socket = io.connect(window.location.href);
@@ -50,8 +50,9 @@ html
     //- script(src="js/lg-thumbnail.min.js") 
     //- script(src="js/lg-fullscreen.min.js")
      
-    script(src='/js/RYPP.js')
     script(src='/js/main.js')
+    script(src='/js/skyBackground.js')
+    script(src='/js/RYPP.js')
     script(src='/js/jR3DCarousel.js')
 
     //- Google Analytics: change UA-XXXXX-X to be your site's ID

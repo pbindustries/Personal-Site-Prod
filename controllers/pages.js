@@ -23,6 +23,16 @@ exports.about = (req, res) => {
 
 /**
  * GET /
+ * Likes page.
+ */
+exports.likes = (req, res) => {
+  res.render('myThings/likes', {
+    title: 'Likes'
+  });
+};
+
+/**
+ * GET /
  * Resume page.
  */
 exports.resume = (req, res) => {

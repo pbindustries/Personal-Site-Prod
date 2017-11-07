@@ -26,6 +26,7 @@ My personal website, i will be adding my projects to this site.
 * Add quote slideshow
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
 * Decide whether or not to use browserify - http://browserify.org/
+* get this background working - https://codepen.io/ZahidurReza/pen/RadaEO?page=6
 
 # Tips
 * Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page

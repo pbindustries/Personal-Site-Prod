@@ -2,20 +2,15 @@ extends layout
 
 block content
   
-  .carousel.slide#myCarousel(data-ride="carousel")
-    .carousel-inner
-      .item.active
-        .parallax.bud1
-        .carousel-caption
-          h1 Hello There! 
-          h2 This Is Philip Bankier's Personal Website 
-            br
-            div.btn-group
-              a.btn.btn-clear(type="button", href="https://github.com/philipbankier/Personal-Website") 
-                h4 Website Github
-              a.btn.btn-clear(type="button", href="/buddy") 
-                h4 More Pictures of Buddy       
-
+  .large-header#large-header
+    canvas#demo-canvas
+    h1.main-title Welcome To My Website!
+      div.btn-group
+        a.btn.btn-clear(type="button", href="https://github.com/philipbankier/Personal-Website") 
+          h4 Website Github
+        a.btn.btn-clear(type="button", href="/buddy") 
+          h4 More Pictures of Buddy  
+          
   .container-fluid.bg-1.text-center 
     br
     br
@@ -26,34 +21,10 @@ block content
     br
     .container.bg-4.text-center  
       br
-      h1 Some Interesting Videos
       br
       br
-      .RYPP.r4-3(data-playlist="PL7myPgOfQRSh9umEktpS2vcuVE_SElhv8")
-        .RYPP-video
-          .RYPP-video-player
-        .RYPP-playlist
-          header
-            h2._h1.RYPP-title DIY Video's
-            p.RYPP-desc Some great projects
-            .RYPP-items
       br
       br
-      //- br
-      //- br
-      //- h1 Some Interesting Videos
-      //- br
-      //- br
-      //- iframe(width="1008", height="567", src="https://www.youtube.com/embed/mht-1c4wc0Q" frameborder="0", allowfullscreen)
-      //- br
-      //- br
-      //- iframe(width="1008", height="567", src="https://www.youtube.com/embed/gg85IH3vghA", frameborder="0", allowfullscreen)
-      //- br
-      //- br
-      //- iframe(width="1008", height="567", src="https://www.youtube.com/embed/6P97r9Ci5Kg", frameborder="0", allowfullscreen)
-      //- br
-      //- br
-      //- br
     br
     br
     br
@@ -61,137 +32,27 @@ block content
   .container-fluid.bg-1.text-center 
     br
     br
-
-  .container-fluid.bg-4.text-center  
-    .parallax.bud2
-      br
-      br
-      h1 Some Dope Music
-        br
-        br
-        br
-        br
-        iframe(width="100%", height="200", scrolling="no", frameborder="no", src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/297714702&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true")
-        br
-        br
-        br
-        br
-        iframe(width="100%", height="200", scrolling="no", frameborder="no", src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284979796&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true")
-        br
-        br
-        br
-        br
-        iframe(width="100%", height="200", scrolling="no", frameborder="no", src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/244417407&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true")
-        br
-        br
-        br
-        br
-        iframe(width="100%", height="200", scrolling="no", frameborder="no", src=" https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301161123&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true")
-      br
-      br
+  .container-fluid.bg-4.text-center.parallax.bud2  
       br
       br
       br
       br
 
   .container-fluid.bg-1.text-center 
+    br
+    br
+    br
     br
     br
   
-  .container-fluid.bg-5.text-center.bot  
+  .container-fluid.bg-5.text-center  
     br
     br
-    h1 Some Interesting Quotes
-    //- Put stocks here
+    br
+    br
+    br
 
-  .container-fluid.bg-4.text-center  
-    .parallax.bud2
-      br
-      br
-      h1 Some Interesting Quotes
-      .row
-        br
-        br
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Too often we enjoy the comfort of opinion without the discomfort of thought"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left John F. Kennedy
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The idea was wonderful, it was only the reality that did not cooperate"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Thomas Sowell
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Money doesn't change people, it just makes them be who they really are"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Abe Simpson
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The problem with socialism is that you eventually run out of other peoples' money"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Margaret Thatcher
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        
-      //- Second Row of Quotes
-      .row
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "Free market capitalism is the worst economic system except for every other system ever tried"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Sir Winston Churchill
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The idea was wonderful, it was only the reality that did not cooperate"
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Thomas Sowell
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "One of the great mistakes is to judge policies and programs by their intentions, rather than their results. We all know a famous road that is paved with good intentions. The people who go around talking about their 'soft heart,'--I admire them for the softness of their heart, but very often it extends to their head as well."
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left Milton Friedman
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-        .col-sm-3
-          blockquote.quote-box
-            p.quotation-mark.
-              "The first lesson of economics is scarcity: there is never enough of anything to fully satisfy all those who want it. The first lesson of politics is to disregard the first lesson of economics."
-            hr
-            .blog-post-actions
-              p.blog-post-bottom.pull-left 
-              p.blog-post-bottom.pull-right
-                span.badge.quote-badge 896
-    br
-    br
-    br
-    br
-    br
+  .container-fluid.bg-4.text-center.parallax.bud2.bot  
   br
   br
   br
