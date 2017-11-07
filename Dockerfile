@@ -7,6 +7,7 @@ COPY .env /My-Site/.env
 WORKDIR /My-Site
 
 ENV NODE_ENV production
+RUN npm install gulp -g
 RUN npm install --production
 
 CMD ["gulp"]
