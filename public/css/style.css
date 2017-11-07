@@ -213,7 +213,6 @@ img.center {
 .large-header2 {
 	position: relative;
 	width: 100%;
-	max-height: 1000px;
 	background: #333;
 	overflow: hidden;
 	background-size: cover;
@@ -231,6 +230,8 @@ img.center {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-height: 800px;
+
 }
 
 
@@ -242,10 +243,23 @@ img.center {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-height: 1000px;
+
 }
 
+#me {
+	background-image: url('/images/me2.jpg');
 
-.main-title {
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 2000px;
+	min-height: 1500px;
+}
+
+.sec-title {
 	position: absolute;
 	margin: 0;
   	font-size: 50px;
@@ -253,6 +267,32 @@ img.center {
 	color: #f9f1e9;
 	text-align: center;
 	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 30px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 39%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.about-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 50px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 10%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);

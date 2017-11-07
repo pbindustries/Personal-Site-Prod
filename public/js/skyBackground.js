@@ -72,6 +72,9 @@
         if(!('ontouchstart' in window)) {
             window.addEventListener('mousemove', mouseMove);
         }
+
+        // window.addEventListener('mousestill', mouseStill);
+
         window.addEventListener('scroll', scrollCheck);
 
         // Add for resizable window
@@ -91,6 +94,20 @@
         target.x = posx;
         target.y = posy;
     }
+
+    // function mouseStill(e) {
+    //     var posx = posy = 0;
+    //     if (e.pageX || e.pageY) {
+    //         posx = e.pageX;
+    //         posy = e.pageY;
+    //     }
+    //     else if (e.clientX || e.clientY)    {
+    //         posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+    //         posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+    //     }
+    //     target.x = posx;
+    //     target.y = posy;
+    // }
 
     function scrollCheck() {
         if(document.body.scrollTop > height) animateHeader = false;
@@ -139,6 +156,34 @@
         }
         requestAnimationFrame(animate);
     }
+
+    // function animate2() {
+    //     if(animateHeader) {
+    //         ctx.clearRect(0,0,width,height);
+    //         for(var i in points) {
+    //             // detect points in range
+    //             if(Math.abs(getDistance(target, points[i])) < 6000) {
+    //                 points[i].active = 0.3;
+    //                 points[i].circle.active = 0.6;
+    //             } else if(Math.abs(getDistance(target, points[i])) < 30000) {
+    //                 points[i].active = 0.1;
+    //                 points[i].circle.active = 0.3;
+    //             } else if(Math.abs(getDistance(target, points[i])) < 50000) {
+    //                 points[i].active = 0.02;
+    //                 points[i].circle.active = 0.1;
+    //             } else {
+    //                 points[i].active = 0;
+    //                 points[i].circle.active = 0;
+    //             }
+
+    //             drawLines(points[i]);
+    //             points[i].circle.draw();
+    //         }
+    //     }
+    //     requestAnimationFrame(animate);
+    // }
+
+    
 
     function shiftPoint(p) {
         TweenLite.to(p, 1+1*Math.random(), {x:p.originX-50+Math.random()*100,
