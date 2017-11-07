@@ -10,6 +10,111 @@ describe('GET /', () => {
   });
 });
 
+// Project Summary Page
+describe('GET /summary', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/summary')
+      .expect(200, done);
+  });
+});
+
+// Rules Project
+describe('GET /likes', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/likes')
+      .expect(200, done);
+  });
+});
+
+// Problematic Things
+describe('GET /problematic', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/problematic')
+      .expect(200, done);
+  });
+});
+
+
+// Contact Page
+describe('GET /contact', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/contact')
+      .expect(200, done);
+  });
+});
+
+// About Me Page
+describe('GET /about', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/about')
+      .expect(200, done);
+  });
+});
+
+
+// My Resume
+describe('GET /resume', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/resume')
+      .expect(200, done);
+  });
+});
+
+// Buddy Page
+describe('GET /buddy', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/buddy')
+      .expect(200, done);
+  });
+});
+
+
+// Boo Page
+describe('GET /boo', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/boo')
+      .expect(200, done);
+  });
+});
+
+// Interesting Articles Page
+describe('GET /articles', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/articles')
+      .expect(200, done);
+  });
+});
+
+
+// Resources Page
+describe('GET /resources', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/resources')
+      .expect(200, done);
+  });
+});
+
+// Read These For The Site
+describe('GET /read', () => {
+  it('should return 200 OK', (done) => {
+    request(app)
+      .get('/read')
+      .expect(200, done);
+  });
+});
+
+
+
 // This test should fail
 describe('GET /random-url', () => {
   it('should return 404', (done) => {
