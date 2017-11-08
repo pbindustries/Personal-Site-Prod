@@ -220,6 +220,17 @@ img.center {
 	z-index: 1;
 }
 
+.large-header-contact {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	height: 1500px;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
 
 
 #home {
@@ -244,6 +255,33 @@ img.center {
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: 1000px;
+
+}
+
+#liker {
+	background-image: url('/images/buddy/buddy2.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 1000px;
+
+}
+
+
+
+#contact {
+	background-image: url('/images/buddy/buddy2.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 1500px;
+
 
 }
 
@@ -275,11 +313,24 @@ img.center {
 .main-title {
 	position: absolute;
 	margin: 0;
-  	font-size: 30px;
+  	font-size: 50px;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 39%;
+	top: 14%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-likes {
+	position: absolute;
+	margin: 0;
+  	font-size: 50px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 20%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -292,7 +343,7 @@ img.center {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 10%;
+	top: 40%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -312,4 +363,37 @@ img.center {
 	.demo-1 .main-title {
 		font-size: 3em;
 	}
+}
+
+#con {
+	min-width: 60%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+#like {
+	min-width: 60%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 60%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+/*quote author */
+#author {
+	color: #FFFFFF;
 }
