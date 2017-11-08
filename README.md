@@ -5,7 +5,7 @@
 * Uses Docker/docker-compose 
 * Flash notifications
 * Node.js clusters support
-* Bootstrap 3 + jQuery 
+* UI built with Pug(used to be Jade), BootStrap and jQuery
 * Sendgrid Contact Form   
 * CSRF protection
 * Autoupdated thanks to Nodemon and Browsersync
@@ -26,7 +26,7 @@
  * Link multiple OAuth strategies to one account
  * Delete Account
 
-##Prerequisites
+## Prerequisites
 
 * [Node.js 6.0+](http://nodejs.org)
 * Command Line Tools
@@ -44,6 +44,36 @@
 ### To run in Production 
 * Run `docker-compose up` in project folder
 * Open `<Your-Router-IP-Here>:5050` in a web browser(For example: `192.168.1.8:5050`)
+
+## Tips
+* Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page
+
+## Project Structure
+
+| Name                               | Description                                                  |
+| ---------------------------------- | ------------------------------------------------------------ |
+| **controllers**/contact.js         | Controller for contact form.                                 |
+| **controllers**/pages.js           | Controller for all pages.                                    |
+| **public**/                        | Static assets (fonts, css, js, img).                         |
+| **public/css**/                | Explain each stylesheet later                                |
+| **public/js**/                 | Explain each JavaScript later                                |
+| **public/images**/             | Explain each file later                                      |
+| **views/myThings**/                | Resume,about me, contact my and my interests                 |
+| **views/otherStuff**/              | articles, resources and pics of my awesome pets              |
+| **views/partials**/flash.pug       | Error, info and success flash notifications.                 |
+| **views/partials**/header.pug      | Navbar partial template.                                     |
+| **views/partials**/footer.pug      | Footer partial template.                                     |
+| **views**/layout.pug               | Base template.                                               |
+| **views**/home.pug                 | Home page template.                                          |
+| **views**/rules.pug                | Game rules app                                               |
+| **views**/summary.pug              | My projects page                                             |
+| app.js                             | The main application file.                                   |
+| package.json                       | NPM dependencies.                                            |
+| package-lock.lock                  | Contains exact versions of NPM dependencies in package.json. |
+| gulpfile.js                        | Launchs the app after starting nodemon and browsersync       |
+| routes.js                          | This holds all the routes                                    |
+
+
 
 ## Tasks To Do
 #### General
@@ -88,5 +118,3 @@
 #### Things I Like Page
 * Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
 
-## Tips
-* Chrome caches files so if you are developing, use Ctrl+Shift+R to force reload a page
