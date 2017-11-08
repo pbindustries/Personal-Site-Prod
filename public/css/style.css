@@ -39,6 +39,10 @@ button:hover {
 	margin-right:6px;
 }
 
+#w {
+	color: #FFFFFF;
+}
+
 .bg-1 {
 	background-color:#6599FF;
 	color:#fff;
@@ -78,6 +82,17 @@ background-color:#DCDCDC;
 .bg-9 {
 	background-color:#343434;
 }
+
+/*more intense*/
+.bg-10 {
+	background-color:rgba(101,153,255,0.70);
+}
+
+/*less intense*/
+.bg-11 {
+	background-color:rgba(101,153,255,0.50);
+}
+
 
 #preHoverPic {
 	display:block;
@@ -199,7 +214,7 @@ img.center {
 
 
 /*Homepage background*/
-.large-header {
+.large-header-home {
 	position: relative;
 	width: 100%;
 	max-height: 800px;
@@ -209,6 +224,18 @@ img.center {
 	background-position: center center;
 	z-index: 1;
 }
+
+/*template*/
+/*.large-header {
+	position: relative;
+	width: 100%;
+	max-height: 800px;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}*/
 
 .large-header2 {
 	position: relative;
@@ -221,6 +248,17 @@ img.center {
 }
 
 .large-header-contact {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	height: 1500px;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.large-header-like {
 	position: relative;
 	width: 100%;
 	background: #333;
@@ -259,14 +297,14 @@ img.center {
 }
 
 #liker {
-	background-image: url('/images/buddy/buddy2.jpg');
+	background-image: url('/images/buddy/buddy8.jpg');
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height: 1000px;
+	max-height: 1500px;
 
 }
 
@@ -300,7 +338,7 @@ img.center {
 .sec-title {
 	position: absolute;
 	margin: 0;
-  	font-size: 50px;
+  	font-size: 40px;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
@@ -323,6 +361,19 @@ img.center {
 	transform: translate3d(-50%,-50%,0);
 }
 
+.main-home {
+	position: absolute;
+	margin: 0;
+  	font-size: 60px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 35%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
 .main-likes {
 	position: absolute;
 	margin: 0;
@@ -330,7 +381,7 @@ img.center {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 20%;
+	top: 25%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -343,7 +394,7 @@ img.center {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 40%;
+	top: 30%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -387,7 +438,7 @@ img.center {
 	color: #FFFFFF;
 	background-color:rgba(101,153,255,0.70);
 	text-align: center;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
