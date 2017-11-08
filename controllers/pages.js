@@ -13,16 +13,6 @@ exports.home = (req, res) => {
 // My Things ////////////////////////////////////
 /**
  * GET /
- * About page.
- */
-exports.about = (req, res) => {
-  res.render('myThings/about', {
-    title: 'About'
-  });
-};
-
-/**
- * GET /
  * Likes page.
  */
 exports.likes = (req, res) => {

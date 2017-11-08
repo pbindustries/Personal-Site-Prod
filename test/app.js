@@ -47,16 +47,6 @@ describe('GET /contact', () => {
   });
 });
 
-// About Me Page
-describe('GET /about', () => {
-  it('should return 200 OK', (done) => {
-    request(app)
-      .get('/about')
-      .expect(200, done);
-  });
-});
-
-
 // My Resume
 describe('GET /resume', () => {
   it('should return 200 OK', (done) => {

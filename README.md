@@ -116,4 +116,9 @@
 #### Projects
 * Integrate projects 
 #### Things I Like Page
+<<<<<<< HEAD
 * Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
+=======
+* Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
+
+>>>>>>> c6037b18ac5771ebe7349c1984406432561ab8a6

@@ -22,12 +22,57 @@ block content
   .container-fluid.bg-4.text-center 
     br
     br
-    .large-header#me
+    .large-header-home#me
       canvas#demo-canvas
-      h1.about-title Get To Know Me
-    br
-    br
+      h1.home2-title Get To Know Me
+      
+      .container-fluid.text-center#home2     
+        br
+        br
+        br
+        br
+        .row
+          .col-md-offset-2.col-md-8.col-lg-offset-3.col-lg-6
+            .well.profile
+              .col-sm-12    
+                .col-xs-12.col-sm-8
+                  p About: 
+                  p Skills:
+                    br
+                    span.tags HTML
+                    span.tags CSS
+                    span.tags Kotlin
 
+              .col-xs-12.col-sm-4.text-center
+                img.img-responsive.margin.center-block#preHoverPic(src="/images/me.jpg", alt="Image")
+                br
+                br
+              .col-xs-12.divider.text-center
+                br
+                br
+                .col-xs-12.col-sm-4.emphasis
+                  button.btn.btn-success.btn-block 
+                    span.fa.fa-plus-circle
+                .col-xs-12.col-sm-4.emphasis
+                  button.btn.btn-info.btn-block View Profile
+                    span.fa.fa-user
+                .col-xs-12.col-sm-4.emphasis
+                  .btn-group.dropup.btn-block
+                    button.btn.btn-primary.dropdown-toggle(type="button", data-toggle="dropdown") Options
+                      span.fa.fa-gear
+                      span.sr-only Toggle Dropdown
+                    ul.dropdown-menu.text-left(role="menu")
+                      li
+                        a(href="/contact") Contact Me
+                          span.fa.fa-envelope.pull-right
+                      li.divider                  
+                      li
+                        a(href="#") Add or remove from a list
+                          span.fa.fa-list.pull-right
+        br
+        br
+        br
+        br
   .container-fluid.bg-1.text-center 
     br
     br

@@ -22,7 +22,6 @@ router.route('/problematic').get(pagesController.problematic);
 router.route('/summary').get(pagesController.summary);
 router.route('/contact').get(contactController.getContact);
 router.route('/contact').post(contactController.postContact);
-router.route('/about').get(pagesController.about);
 router.route('/resume').get(pagesController.resume);
 
 
