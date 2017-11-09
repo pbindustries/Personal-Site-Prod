@@ -1,4 +1,4 @@
-FROM node:6-slim
+FROM node:6
 
 COPY . /My-Site
 COPY package.json /My-Site/package.json
@@ -12,4 +12,3 @@ RUN npm install --production
 
 CMD ["gulp"]
 
-EXPOSE 5000
