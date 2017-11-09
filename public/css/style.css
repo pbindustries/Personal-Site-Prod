@@ -342,7 +342,7 @@ img.center {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 50%;
+	top: 65%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -351,11 +351,11 @@ img.center {
 .main-title {
 	position: absolute;
 	margin: 0;
-  	font-size: 50px;
+  	font-size: 55px;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 14%;
+	top: 40%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);

@@ -77,14 +77,12 @@
 
 ## Tasks To Do
 #### General
-* Set up AWS
 * Activate one.com site hosting and use given url
 * Improve form appearance
 * Use Google Analytics
 * Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
 * Add babel
 * Start using webpack
-* Add Node scss compiler
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
 * Add Animation to navbar - https://codepen.io/Rplus/pen/lEDBj
@@ -92,9 +90,6 @@
 #### About me 
 * Add skills, about and more content
 * Add resume to bottom and look at - http://www.tymandrews.com/#resume  
-* Also check out - https://www.devonstank.com/about 
-* Look at - http://quinntonharris.strikingly.com/
-* Look at - http://www.quinntonharris.com/work/
 #### Home 
 * Add projects - http://www.garysheng.com/
 #### Articles page 
@@ -106,7 +101,6 @@
 #### Need to Read 
 * Improve appearance
 #### Contact Me 
-* Make form opaque and move onto the picture
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
 
@@ -116,9 +110,5 @@
 #### Projects
 * Integrate projects 
 #### Things I Like Page
-<<<<<<< HEAD
-* Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
-=======
 * Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
 
->>>>>>> c6037b18ac5771ebe7349c1984406432561ab8a6
