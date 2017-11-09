@@ -85,7 +85,6 @@
 * Start using webpack
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
-* Add Animation to navbar - https://codepen.io/Rplus/pen/lEDBj
 
 #### About me 
 * Add skills, about and more content
