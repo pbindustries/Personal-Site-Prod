@@ -1,5 +1,7 @@
 # Philip Bankier's Personal Website
 
+* Talk to bro about making a site like -> https://www.devonstank.com/about
+
 ## Features
 * Responsive jQuery animation with parallax
 * Uses Docker/docker-compose 
@@ -77,20 +79,25 @@
 
 ## Tasks To Do
 #### General
+* Make a code and other things shop like - this https://www.devonstank.com/products/accordion-style-1
 * Activate one.com site hosting and use given url
 * Improve form appearance
 * Use Google Analytics
 * Add this and other linters to gulp - https://github.com/emartech/gulp-pug-lint
 * Add babel
 * Start using webpack
+* Add counter to graduation - https://www.bypeople.com/countdown-cube-plugin/
+* Add effect that lets me overlay a pic of me now on a pic of me as kid then the slider reveals other
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
 
 #### About me 
 * Add skills, about and more content
-* Add resume to bottom and look at - http://www.tymandrews.com/#resume  
+* Add resume to bottom and look at - http://www.tymandrews.com/#resume
+* Interests - 1. astronomy -> https://www.bypeople.com/css-js-webgl-rotating-3d-globe-effect/  
 #### Home 
 * Add projects - http://www.garysheng.com/
+* my projects should be this - https://codepen.io/noeldelgado/pen/PZJGLx
 #### Articles page 
 * Add articles and improve appearance
 #### Problematic 
@@ -100,12 +107,16 @@
 #### Need to Read 
 * Improve appearance
 #### Contact Me 
+* make mor elike this - https://www.devonstank.com/contact/
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
+#### Resume
+* Make more like this - https://www.devonstank.com/resume/
 
 #### Buddy/Boo
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
 * Add picture light slider - http://jquery-plugins.net/jquery-lightslider-lightweight-responsive-content-slider
+* Best gallery yet! - http://manos.malihu.gr/sideways-jquery-fullscreen-image-gallery/
 #### Projects
 * Integrate projects 
 #### Things I Like Page
