@@ -9,7 +9,7 @@
   "author": "Philip Bankier",
   "license": "MIT",
   "scripts": {
-    "start": "gulp",
+    "start": "node app.js",
     "test": "mocha --reporter spec",
     "eslint": "eslint **/*.js",
     "dockerst": "sudo docker-compose up web",
