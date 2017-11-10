@@ -88,6 +88,7 @@
 * Start using webpack
 * Add counter to graduation - https://www.bypeople.com/countdown-cube-plugin/
 * Add effect that lets me overlay a pic of me now on a pic of me as kid then the slider reveals other
+* add button and route for page about how i made the site. Like what tech , features etc
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
 
@@ -107,7 +108,8 @@
 #### Need to Read 
 * Improve appearance
 #### Contact Me 
-* make mor elike this - https://www.devonstank.com/contact/
+* make more 
+like this - https://www.devonstank.com/contact/
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
 #### Resume
@@ -116,7 +118,6 @@
 #### Buddy/Boo
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
 * Add picture light slider - http://jquery-plugins.net/jquery-lightslider-lightweight-responsive-content-slider
-* Best gallery yet! - http://manos.malihu.gr/sideways-jquery-fullscreen-image-gallery/
 #### Projects
 * Integrate projects 
 #### Things I Like Page

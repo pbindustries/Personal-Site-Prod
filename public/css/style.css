@@ -374,6 +374,19 @@ img.center {
 	transform: translate3d(-50%,-50%,0);
 }
 
+.home-pass {
+	position: absolute;
+	margin: 0;
+  	font-size: 60px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
 .main-likes {
 	position: absolute;
 	margin: 0;
@@ -400,14 +413,29 @@ img.center {
 	transform: translate3d(-50%,-50%,0);
 }
 
+/*Get to know me*/
 .home2-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 80px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 17%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+/*grad countdown*/
+.home3-title {
 	position: absolute;
 	margin: 0;
   	font-size: 50px;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 20%;
+	top: 19%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
