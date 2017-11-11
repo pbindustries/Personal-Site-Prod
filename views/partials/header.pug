@@ -11,8 +11,8 @@
           a.navbar-brand.fa.fa-cube#headerText(href='/') Philip Bankier
         .collapse.navbar-collapse#navbar
           ul.nav.navbar-nav
-            li(class=(title === 'Contact') ? 'active' : undefined)
-              a#headerText(href='/contact') Contact Me
+            li
+              a#headerText(href='/likes') Some Things I Like
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") More Info About Me
                 span(class='caret')
@@ -67,8 +67,8 @@
             //-   a#headerText(href='/status') Status
 
           ul.nav.navbar-nav.navbar-right
-            li
-              a#headerText(href='/likes') Some Things I Like
+            li(class=(title === 'Contact') ? 'active' : undefined)
+              a#headerText(href='/contact') Contact Me
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Awesome Pets
                 span(class='caret')

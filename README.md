@@ -90,7 +90,7 @@
 * add button and route for page about how i made the site. Like what tech , features etc
 * Beautiful scrolling navigation - http://slinky.iclanzan.com
 * cool accordian menu - https://codepen.io/chrisMaki/full/mdKgc
-
+* use this image accordian - http://preview.codecanyon.net/item/grid-accordion-responsive-wordpress-plugin/full_screen_preview/7788530?ref=jqueryrain&clickthrough_id=1122970441&redirect_back=true
 
 
 #### Text animations and other text effects
@@ -118,6 +118,7 @@
 
 #### Articles page 
 * Add articles and improve appearance
+* Accoridion - https://codepen.io/raubaca/pen/PZzpVe
 
 #### Problematic 
 * Add content and improve appearance

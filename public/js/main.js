@@ -79,3 +79,4 @@ $('ul.first').bsPhotoGallery({
 $(window).load(function() {
   $("#container1").twentytwenty();
 });
+

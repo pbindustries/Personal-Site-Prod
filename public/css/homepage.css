@@ -17,8 +17,8 @@
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	min-height: 3000px;
-	max-height: 5000px;
+	min-height: 3500px;
+	max-height: 6000px;
 }
 	
 
@@ -116,7 +116,7 @@
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 10%;
+	top: 7%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -125,13 +125,14 @@
 #home2 {
 	border-radius: 25px;
 	min-width: 60%;
+	height: auto;
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	color: #FFFFFF;
 	background-color:rgba(101,153,255,0.70);
 	text-align: center;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -284,3 +285,4 @@
   
   
 }
+
