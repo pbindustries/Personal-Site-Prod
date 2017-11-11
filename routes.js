@@ -23,6 +23,7 @@ router.route('/summary').get(pagesController.summary);
 router.route('/contact').get(contactController.getContact);
 router.route('/contact').post(contactController.postContact);
 router.route('/resume').get(pagesController.resume);
+router.route('/cool').get(pagesController.cool);
 
 
 /**  

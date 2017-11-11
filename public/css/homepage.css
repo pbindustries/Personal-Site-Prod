@@ -10,6 +10,18 @@
 	z-index: 1;
 }
 
+.large-header-home2 {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	min-height: 3000px;
+	max-height: 5000px;
+}
+	
+
 #home {
 	background-image: url('http://cdn.paper4pc.com/images/blue-space-wallpaper-4.jpg');
 
@@ -82,8 +94,6 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height: 2000px;
-	min-height: 1500px;
 }
 
 #buddy {
@@ -125,6 +135,7 @@
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+
 }
 
 #preHoverPic {
@@ -199,3 +210,77 @@
 [bg=i] {background-image:url(http://farm8.staticflickr.com/7129/7452167788_a3f6aa3104.jpg);background-size:auto 200px;}
 [bg=j] {background-image:url(http://farm8.staticflickr.com/7153/6480022425_a8d419e663_z.jpg);background-size:auto 280px;}
 [bg=k] {background-image:url(http://farm8.staticflickr.com/7225/7269592732_c4b7918626.jpg);background-size:auto 280px;}
+
+* {
+  
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  
+}
+
+.slider {
+
+  width:720px;
+  height:360px;
+  overflow:hidden;
+  margin:30px auto;
+  box-shadow:2px 4px 10px rgba(125,125,125, 0.8);
+}
+
+.slider ul {
+ 
+  list-style-type:none;
+  width:30000px;
+}
+
+.slider ul li {
+  position:relative;
+  display:block;
+  float:left;
+  width:180px;
+  border-left:1px solid rgba(145,145,145, 0.6);  
+  box-shadow:0 0 20px 1px rgba(22,22,22, 0.5);
+  
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+
+
+
+.slider ul:hover li {
+  width:40px;
+}
+
+.slider ul li:hover {
+  
+  width:600px;
+}
+
+.slider li img {
+  
+  display:block;
+}
+
+.title {
+  
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:600px;
+  background:rgba(22,22,22,0.4);
+  
+}
+
+.title a {
+  display:block;
+  padding:20px;
+  color:white;
+  font:18px;
+  text-decoration:none;
+  
+  
+}

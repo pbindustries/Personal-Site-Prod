@@ -92,6 +92,7 @@
 * cool accordian menu - https://codepen.io/chrisMaki/full/mdKgc
 
 
+
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
 * shatter text effect - https://codepen.io/ARS/pen/pjypwd
@@ -148,3 +149,5 @@ like this - https://www.devonstank.com/contact/
 * improve music section with this soundcloud plugin - https://github.com/ToneDen/Player
 * Name interests
 
+#### Cool
+* fix the emotion detector - https://codepen.io/sdras/pen/dZOdpv

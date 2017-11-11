@@ -10,6 +10,17 @@ exports.home = (req, res) => {
   });
 };
 
+/**
+ * GET /
+ * Cool page.
+ */
+exports.cool = (req, res) => {
+  res.render('cool', {
+    title: 'Cool'
+  });
+};
+
+
 // My Things ////////////////////////////////////
 /**
  * GET /
