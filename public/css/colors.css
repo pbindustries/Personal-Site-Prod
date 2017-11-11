@@ -1,0 +1,53 @@
+#w {
+	color: #FFFFFF;
+}
+
+.bg-1 {
+	background-color:#6599FF;
+	color:#fff;
+}
+
+.bg-2 {
+	background-color:#474e5d;
+	color:#fff;
+}
+
+.bg-3 {
+	background-color:#2f2f2f;
+	color:#fff;
+}
+
+.bg-4 {
+	background-color:#fff;
+}
+
+.bg-5 {
+background-color:#DCDCDC;
+}
+
+.bg-6 {
+	background-color:#1F3A93;
+	color:#fff;
+}
+
+.bg-7 {
+	background-color:#B0B0B0;
+}
+
+.bg-8 {
+	background-color:#000;
+}
+
+.bg-9 {
+	background-color:#343434;
+}
+
+/*more intense*/
+.bg-10 {
+	background-color:rgba(101,153,255,0.70);
+}
+
+/*less intense*/
+.bg-11 {
+	background-color:rgba(101,153,255,0.50);
+}

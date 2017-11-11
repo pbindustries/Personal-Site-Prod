@@ -75,9 +75,8 @@
 | gulpfile.js                        | Launchs the app after starting nodemon and browsersync       |
 | routes.js                          | This holds all the routes                                    |
 
-
-
 ## Tasks To Do
+
 #### General
 * Make a code and other things shop like - this https://www.devonstank.com/products/accordion-style-1
 * Activate one.com site hosting and use given url
@@ -89,6 +88,25 @@
 * Add counter to graduation - https://www.bypeople.com/countdown-cube-plugin/
 * Add effect that lets me overlay a pic of me now on a pic of me as kid then the slider reveals other
 * add button and route for page about how i made the site. Like what tech , features etc
+* Beautiful scrolling navigation - http://slinky.iclanzan.com
+* cool accordian menu - https://codepen.io/chrisMaki/full/mdKgc
+
+
+#### Text animations and other text effects
+* Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
+* shatter text effect - https://codepen.io/ARS/pen/pjypwd
+* Cool bit typeing animation - https://codepen.io/gbnikolov/pen/jEqQdG
+* Filling SVG Text - https://codepen.io/supah/pen/vXyBza
+
+#### Home 
+* Add projects - http://www.garysheng.com/
+* my projects should be this - https://codepen.io/noeldelgado/pen/PZJGLx
+* make the picture of me change from a baby pic to a current pic as you scroll down the page
+* change passion pics and figure out why pics arent responsive
+* Make grad counter smaller and make it work
+* Fix passions - http://www.jsonenglish.com/projects/flex/
+* prjects could be this format - https://github.com/michaelsoriano/bootstrap-photo-gallery/blob/master/demo.html
+
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
 
@@ -96,30 +114,37 @@
 * Add skills, about and more content
 * Add resume to bottom and look at - http://www.tymandrews.com/#resume
 * Interests - 1. astronomy -> https://www.bypeople.com/css-js-webgl-rotating-3d-globe-effect/  
-#### Home 
-* Add projects - http://www.garysheng.com/
-* my projects should be this - https://codepen.io/noeldelgado/pen/PZJGLx
+
 #### Articles page 
 * Add articles and improve appearance
+
 #### Problematic 
 * Add content and improve appearance
+
 #### Resources 
 * Improve appearance
+
 #### Need to Read 
 * Improve appearance
+
 #### Contact Me 
 * make more 
 like this - https://www.devonstank.com/contact/
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
+
 #### Resume
 * Make more like this - https://www.devonstank.com/resume/
 
 #### Buddy/Boo
 * Lightgallery - https://github.com/sachinchoolur/lightGallery
 * Add picture light slider - http://jquery-plugins.net/jquery-lightslider-lightweight-responsive-content-slider
+
 #### Projects
 * Integrate projects 
+
 #### Things I Like Page
 * Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
+* improve music section with this soundcloud plugin - https://github.com/ToneDen/Player
+* Name interests
 

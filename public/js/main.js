@@ -62,3 +62,14 @@ $(document).ready(function() {
     interval: 1000,
   });
 });
+
+// Cool pic grid
+$(function() {
+  $(".flex").flex();
+});
+
+// project photo gallery
+$('ul.first').bsPhotoGallery({
+  "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+  "hasModal" : true
+});

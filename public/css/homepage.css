@@ -1,0 +1,201 @@
+/*Homepage background*/
+.large-header-home {
+	position: relative;
+	width: 100%;
+	max-height: 800px;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+#home {
+	background-image: url('http://cdn.paper4pc.com/images/blue-space-wallpaper-4.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 800px;
+
+}
+
+.main-home {
+	position: absolute;
+	margin: 0;
+  	font-size: 60px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 35%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.sec-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 40px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 65%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.btn-clear {
+	color:#FFF;
+	background-color:transparent;
+	margin-right:15px;
+	border-color:#FFF;
+}
+
+.btn-clear:hover {
+	color:#000;
+	background-color:#FFF;
+}
+
+/*grad countdown*/
+.home3-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 50px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 19%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+#me {
+	background-image: url('/images/me2.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 2000px;
+	min-height: 1500px;
+}
+
+#buddy {
+	background-image: url('/images/buddy/buddy2.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 2000px;
+	min-height: 1500px;
+}
+
+/*Get to know me*/
+.home2-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 70px;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+#home2 {
+	border-radius: 25px;
+	min-width: 60%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+#preHoverPic {
+	display:block;
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+.bud2 {
+	background-image: url("/images/buddy/buddy2.jpg");
+	/* Set a specific height */
+	min-height: 950px; 
+}
+
+#liker {
+	background-image: url('/images/buddy/buddy8.jpg');
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 1500px;
+
+}
+
+#like {
+	border-radius: 25px;
+	min-width: 60%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 70%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+#like2 {
+	border-radius: 25px;
+}
+
+.home-project-title {
+	position: absolute;
+	margin: 0;
+  	font-size: 55px;
+	padding: 0;
+	color: #FFFFFF;
+	text-align: center;
+	top: 15%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+.flex {position:relative;width:850px;min-height:300px;margin:0 auto;border:0px solid red;margin-top:10px;}
+.flex a {background-color:white;display:block;width:100px;height:100px;border-radius:8px;position:absolute;background-repeat:no-repeat;background-position:center;border:3px solid white;cursor:pointer;text-align:left;text-shadow:1px 1px 20px #000;color:white;font-size:18px;font-weight:bold;text-indent:10px;line-height:30px;}
+[bg=a] {background-image:url(http://farm8.staticflickr.com/7013/6448917381_0b754e86fb_z.jpg);}
+[bg=b] {background-image:url(http://farm9.staticflickr.com/8156/7362866426_bf285ebd45.jpg);background-size:300px auto;}
+[bg=c] {background-image:url(http://farm6.staticflickr.com/5117/7410370290_0935419fc3.jpg);}
+[bg=d] {background-image:url(http://farm8.staticflickr.com/7262/7419245080_bb752ed1d6.jpg);}
+[bg=e] {background-image:url(http://farm8.staticflickr.com/7003/6468321069_3375be3073_z.jpg);background-size:auto 280px;}
+[bg=f] {background-image:url(http://farm8.staticflickr.com/7220/7342556872_46cddaf9b0.jpg);background-size:auto 280px;}
+[bg=g] {background-image:url(http://farm9.staticflickr.com/8021/7322604950_348c535903.jpg);background-size:auto 200px;}
+[bg=h] {background-image:url(http://farm8.staticflickr.com/7076/7286717012_6e6b450243.jpg);}
+[bg=i] {background-image:url(http://farm8.staticflickr.com/7129/7452167788_a3f6aa3104.jpg);background-size:auto 200px;}
+[bg=j] {background-image:url(http://farm8.staticflickr.com/7153/6480022425_a8d419e663_z.jpg);background-size:auto 280px;}
+[bg=k] {background-image:url(http://farm8.staticflickr.com/7225/7269592732_c4b7918626.jpg);background-size:auto 280px;}

@@ -8,15 +8,17 @@ html
     meta(name='csrf-token', content=_csrf)
     title #{title} - Philip Bankier
     link(rel='icon', href='/favicon.png', type="image/png")
+    link(rel='stylesheet', href='/css/homepage.css')
     link(rel='stylesheet', href='/css/style.css')
     link(rel='stylesheet', href='/css/navbar.css')
     link(rel='stylesheet', href='/css/3d.css')
+    link(rel='stylesheet', href='/css/jquery.bsPhotoGallery.css')
     link(rel='stylesheet', href='/css/about.css')
     link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='/css/colors.css')
+    link(rel='stylesheet', href='/css/likes.css')
     link(rel='stylesheet', href='/css/countdown.css')
-    link(rel='stylesheet', href='/css/responsiveQuoteCarousel.css')
     link(rel='stylesheet', href='/css/Footer-with-social-icons.css')
-    link(rel='stylesheet', href='/css/RYPP.css')
     link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
     link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
     link(href='https://fonts.googleapis.com/css?family=Raleway:200,400,800', rel='stylesheet', type='text/css')
@@ -42,24 +44,15 @@ html
 
     script(src='/js/lib/jquery-3.1.1.min.js')
     script(src='/js/lib/bootstrap.min.js')
-
-    //- //- Lightbox Dev
-    //- //- A jQuery plugin that adds cross-browser mouse wheel support
-    //- script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js")
-    //- script(src="js/lightgallery.min.js") 
-    //- script(src="js/lightGallery.js") 
-    //- //- Lightgallery plugins 
-    //- script(src="js/lg-thumbnail.min.js") 
-    //- script(src="js/lg-fullscreen.min.js")
-     
+    script(src="https://raw.github.com/jasonenglish/jquery-flex/master/jquery.flex.js")     
     script(src='/js/main.js')
     script(src='/js/skyBackground.js')
     script(src='/js/RYPP.js')
     script(src='/js/jR3DCarousel.js')
+    script(src='/js/jquery.bsPhotoGallery.js')
     script(src='/js/countdown.js')
     script(type="text/javascript", src="js/kinetic.js")
     script(type="text/javascript", src="js/jquery.final-countdown.min.js")
-    //- script(src='/js/breakingbad.js')
     
     //- //- Google Analytics: change UA-XXXXX-X to be your site's ID
     //- script.

@@ -39,68 +39,6 @@ button:hover {
 	margin-right:6px;
 }
 
-#w {
-	color: #FFFFFF;
-}
-
-.bg-1 {
-	background-color:#6599FF;
-	color:#fff;
-}
-
-.bg-2 {
-	background-color:#474e5d;
-	color:#fff;
-}
-
-.bg-3 {
-	background-color:#2f2f2f;
-	color:#fff;
-}
-
-.bg-4 {
-	background-color:#fff;
-}
-
-.bg-5 {
-background-color:#DCDCDC;
-}
-
-.bg-6 {
-	background-color:#1F3A93;
-	color:#fff;
-}
-
-.bg-7 {
-	background-color:#B0B0B0;
-}
-
-.bg-8 {
-	background-color:#000;
-}
-
-.bg-9 {
-	background-color:#343434;
-}
-
-/*more intense*/
-.bg-10 {
-	background-color:rgba(101,153,255,0.70);
-}
-
-/*less intense*/
-.bg-11 {
-	background-color:rgba(101,153,255,0.50);
-}
-
-
-#preHoverPic {
-	display:block;
-	width:100%;
-	height:auto;
-	margin:auto;
-}
-
 .middle {
 	position:absolute;
 	top:50%;
@@ -139,18 +77,6 @@ img.center {
 	line-height:26px;
 }
 
-.btn-clear {
-	color:#FFF;
-	background-color:transparent;
-	margin-right:15px;
-	border-color:#FFF;
-}
-
-.btn-clear:hover {
-	color:#000;
-	background-color:#FFF;
-}
-
 .carousel {
 	position:absolute;
 	top:0;
@@ -186,12 +112,6 @@ img.center {
 	min-height: 950px; 
 }
 
-.bud2 {
-	background-image: url("/images/buddy/buddy2.jpg");
-	/* Set a specific height */
-	min-height: 950px; 
-}
-
 /*Button to scroll to top*/
 #myBtn {
   display: none;
@@ -211,31 +131,6 @@ img.center {
 #myBtn:hover {
   background-color: #65BEFF;
 }
-
-
-/*Homepage background*/
-.large-header-home {
-	position: relative;
-	width: 100%;
-	max-height: 800px;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-
-/*template*/
-/*.large-header {
-	position: relative;
-	width: 100%;
-	max-height: 800px;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}*/
 
 .large-header2 {
 	position: relative;
@@ -258,32 +153,6 @@ img.center {
 	z-index: 1;
 }
 
-.large-header-like {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	height: 1500px;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-
-
-
-#home {
-	background-image: url('http://cdn.paper4pc.com/images/blue-space-wallpaper-4.jpg');
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-height: 800px;
-
-}
-
-
 #buddy {
 	background-image: url('/images/buddy/buddylong.jpg');
 
@@ -295,20 +164,6 @@ img.center {
 	max-height: 1000px;
 
 }
-
-#liker {
-	background-image: url('/images/buddy/buddy8.jpg');
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-height: 1500px;
-
-}
-
-
 
 #contact {
 	background-image: url('/images/buddy/buddy2.jpg');
@@ -323,31 +178,6 @@ img.center {
 
 }
 
-#me {
-	background-image: url('/images/me2.jpg');
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	max-height: 2000px;
-	min-height: 1500px;
-}
-
-.sec-title {
-	position: absolute;
-	margin: 0;
-  	font-size: 40px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 65%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
 .main-title {
 	position: absolute;
 	margin: 0;
@@ -356,19 +186,6 @@ img.center {
 	color: #f9f1e9;
 	text-align: center;
 	top: 40%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
-.main-home {
-	position: absolute;
-	margin: 0;
-  	font-size: 60px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 35%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -387,19 +204,6 @@ img.center {
 	transform: translate3d(-50%,-50%,0);
 }
 
-.main-likes {
-	position: absolute;
-	margin: 0;
-  	font-size: 50px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 25%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
 .about-title {
 	position: absolute;
 	margin: 0;
@@ -413,29 +217,15 @@ img.center {
 	transform: translate3d(-50%,-50%,0);
 }
 
-/*Get to know me*/
-.home2-title {
+/*contact form title*/
+.contact-title {
 	position: absolute;
 	margin: 0;
-  	font-size: 80px;
+  	font-size: 65px;
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 17%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
-/*grad countdown*/
-.home3-title {
-	position: absolute;
-	margin: 0;
-  	font-size: 50px;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 19%;
+	top: 15%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -458,6 +248,7 @@ img.center {
 }
 
 #con {
+	border-radius: 25px;
 	min-width: 60%;
 	position: absolute;
 	margin: 0;
@@ -469,39 +260,6 @@ img.center {
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-}
-
-#like {
-	min-width: 60%;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #FFFFFF;
-	background-color:rgba(101,153,255,0.70);
-	text-align: center;
-	top: 70%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
-#home2 {
-	min-width: 60%;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #FFFFFF;
-	background-color:rgba(101,153,255,0.70);
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
-
-/*quote author */
-#author {
-	color: #FFFFFF;
 }
 
 /*Article list*/
