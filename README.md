@@ -91,13 +91,24 @@
 * Beautiful scrolling navigation - http://slinky.iclanzan.com
 * cool accordian menu - https://codepen.io/chrisMaki/full/mdKgc
 * use this image accordian - http://preview.codecanyon.net/item/grid-accordion-responsive-wordpress-plugin/full_screen_preview/7788530?ref=jqueryrain&clickthrough_id=1122970441&redirect_back=true
-
-
+* Performant CSS transitions & animations - http://h5bp.github.io/Effeckt.css/
+* Learn GSAP - https://www.slant.co/topics/4797/viewpoints/5/~javascript-animation-frameworks~gsap
+* Make game or somthing using flashlight effect - https://codemyui.com/flashlight-mouse-pointer/
+* CSS Easy Animations - https://daneden.github.io/animate.css/
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
 * shatter text effect - https://codepen.io/ARS/pen/pjypwd
 * Cool bit typeing animation - https://codepen.io/gbnikolov/pen/jEqQdG
 * Filling SVG Text - https://codepen.io/supah/pen/vXyBza
+* Cool Anime.js effects - https://codepen.io/collection/XLebem/ - http://animejs.com/
+* Try to usue this - http://www.vittoriozaccaria.net/dyncss-example/
+
+#### Cool Image effects
+* Water Blur Animation- https://codemyui.com/looking-water-blur-animation-effect-5-styles/
+* Glitch img effect(dope) - https://codemyui.com/horror-movie-like-glitch-effect/
+* Awesome split image effect - https://codemyui.com/vertical-split-image-slideshow/
+* Parallax Effect on Hover - https://codemyui.com/parallax-effect-hover/
+* Multi layer image slider - https://codemyui.com/multi-layer-image-slider/
 
 #### Home 
 * Add projects - http://www.garysheng.com/
@@ -107,6 +118,7 @@
 * Make grad counter smaller and make it work
 * Fix passions - http://www.jsonenglish.com/projects/flex/
 * prjects could be this format - https://github.com/michaelsoriano/bootstrap-photo-gallery/blob/master/demo.html
+* Add this for my skills - https://codepen.io/tamak/pen/hzEer
 
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/

@@ -2,7 +2,7 @@ extends ../layout
 
 block content
   //- FIRST CONTAINER
-  .carousel.slide#myCarousel(data-ride="carousel")
+  .carousel.slide.bot#myCarousel(data-ride="carousel")
     //- Indicators
     ol.carousel-indicators
       li.active(data-target="#myCarousel", data-slide-to="0")
@@ -13,8 +13,8 @@ block content
     .carousel-inner
       .item.active
         img.center(src="/images/boo/boo1.jpg", alt="Pic1", height="2000", width="2000")
-      .item
-        img.center(src="/images/buddy/buddy2.jpg", alt="Pic2", height="2000", width="2000")
+      //- .item
+      //-   video.center(src="boo1.mp4", type="video/mp4", height="240", width="320", controls)
       .item
         img.center(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
 
@@ -31,11 +31,11 @@ block content
       .jumbotron(style="background:transparent !important")
         h1 Boo 
         
-  .container-fluid.bg-5.text-center.bot     
-    br
-    br
-    br
-    br
+  //- .container-fluid.bg-5.text-center.bot     
+  //-   br
+  //-   br
+  //-   br
+  //-   br
   br
   br
   br                
