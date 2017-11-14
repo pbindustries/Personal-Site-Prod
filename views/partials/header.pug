@@ -51,9 +51,9 @@
                           a#headerText(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
 
             li
-              a#headerText(href='/likes') Some Things I Like
+              a#headerText(href='/likes') Interests and Passions
             li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") More Info About Me
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") More About Me
                   span(class='caret')
                   ul.dropdown-menu
                     li
@@ -70,13 +70,13 @@
             //- li
             //-   a#headerText(href='/status') Status
 
-          ul.nav.navbar-nav.navbar-right
-            li
-              a#headerText(href='/cool') Cool Stuff     
+          ul.nav.navbar-nav.navbar-right     
             li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Interesting 
+              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Other Interesting Things
                 span(class='caret')
                   ul.dropdown-menu
+                    li
+                      a#headerText(href='/cool') Cool Stuff
                     li
                       a#headerText(href='/articles') Articles
                     li(class=(title === 'Problematic') ? 'active' : undefined)
