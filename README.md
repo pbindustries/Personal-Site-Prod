@@ -168,3 +168,7 @@ like this - https://www.devonstank.com/contact/
 
 #### Cool
 * fix the emotion detector - https://codepen.io/sdras/pen/dZOdpv
+
+## Current Development
+* Continue integrating - https://github.com/BlackrockDigital/startbootstrap-creative 
+* Look into Travis CI
