@@ -9,31 +9,65 @@
               a(href="/") Home
             li 
               a(href="/contact") Contact Me
+            li 
+              a(href="/resume") My Resume
+            
         .col-sm-3.myCols
-          h5 My Things
+          h5 My Projects
+          ul
+            li 
+              a(href="/summary") Projects Summary Page
+            li
+              a(href='/hardware') Hardware Projects
+            li.dropup
+              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Software Projects
+                span(class='caret')
+                ul.dropdown-menu
+                  li(class=(title === 'Rules') ? 'active' : undefined)
+                    a#headerText(href='/rules') Game Rules
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site') Advanced Express Pug Sample Site
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Express-EJS-Sample-Site') Express EJS Sample Site
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Simple-Express-Sample-Site') Simple Express Sample Site
+                  li
+                    a#headerText(href='https://github.com/philipbankier/drone-search') Drone Search
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Trump-o-meter') Trump-O-Meter
+                  li
+                    a#headerText(href='https://github.com/philipbankier/d3-web-app') D3 Web App
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Kotlin-Stock-App') Kotlin Stock App
+                  li
+                    a#headerText(href='https://github.com/philipbankier/MIPS-Projects') MIPS Projects
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Maven-Kotlin-Tetris') Maven Kotlin Tetris
+                  li
+                    a#headerText(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
+        .col-sm-3.myCols
+          h5 More About Me
           ul
             li 
               a(href="/likes") Some Things I Like
-            li 
-              a(href="/resume") My Resume
-        .col-sm-3.myCols
-          h5 Other Stuff
-          ul
-            li 
-              a(href="/cool") Cool Things
-            li 
-              a(href="/resources") Resources
             li 
               a(href="/buddy") Buddy
             li 
               a(href="/boo") Boo
         .col-sm-3.myCols
-          h5 Things To Read
+          h5 Some Other Interesting Things
           ul
+            li 
+              a(href="/cool") Cool Things
+            li 
+              a(href="/resources") Resources            
             li 
               a(href="/articles") Articles
             li 
               a(href="/problematic") Problematic
+
 
     .social-networks
       a.twitter

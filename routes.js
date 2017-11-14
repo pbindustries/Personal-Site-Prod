@@ -24,7 +24,7 @@ router.route('/contact').get(contactController.getContact);
 router.route('/contact').post(contactController.postContact);
 router.route('/resume').get(pagesController.resume);
 router.route('/cool').get(pagesController.cool);
-
+router.route('/hardware').get(pagesController.hardware);
 
 /**  
  * Other Stuff Routes

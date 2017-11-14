@@ -11,44 +11,68 @@
           a.navbar-brand.fa.fa-cube#headerText(href='/') Philip Bankier
         .collapse.navbar-collapse#navbar
           ul.nav.navbar-nav
+            li(class=(title === 'Contact') ? 'active' : undefined)
+              a#headerText(href='/contact') Contact Me
+            li.dropdown
+              a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") My Projects
+                span(class='caret')
+                ul.dropdown-menu
+                  li
+                    a#headerText(href='/summary') Project Summary Page
+                  li.divider
+                  li
+                    a#headerText(href='/hardware') Hardware Projects
+                  li.dropdown-submenu
+                    a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") Software Projects
+                      ul.dropdown-menu
+                        li(class=(title === 'Rules') ? 'active' : undefined)
+                          a#headerText(href='/rules') Game Rules
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site') Advanced Express Pug Sample Site
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Express-EJS-Sample-Site') Express EJS Sample Site
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Simple-Express-Sample-Site') Simple Express Sample Site
+                        li
+                          a#headerText(href='https://github.com/philipbankier/drone-search') Drone Search
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Trump-o-meter') Trump-O-Meter
+                        li
+                          a#headerText(href='https://github.com/philipbankier/d3-web-app') D3 Web App
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Kotlin-Stock-App') Kotlin Stock App
+                        li
+                          a#headerText(href='https://github.com/philipbankier/MIPS-Projects') MIPS Projects
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Maven-Kotlin-Tetris') Maven Kotlin Tetris
+                        li
+                          a#headerText(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
+
             li
               a#headerText(href='/likes') Some Things I Like
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") More Info About Me
-                span(class='caret')
+                  span(class='caret')
                   ul.dropdown-menu
                     li
                       a#headerText(href='/resume') My Resume
                     li.divider
                     li.dropdown-submenu
-                      a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") My Projects
+                      a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Awesome Pets
                         ul.dropdown-menu
                           li
-                            a#headerText(href='/summary') Project Summary Page
-                          li(class=(title === 'Rules') ? 'active' : undefined)
-                            a#headerText(href='/rules') Game Rules
+                            a#headerText(href='/buddy') Buddy
                           li
-                            a#headerText(href='https://github.com/philipbankier/Advanced-Express-Pug-Sample-Site') Advanced Express Pug Sample Site
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Express-EJS-Sample-Site') Express EJS Sample Site
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Simple-Express-Sample-Site') Simple Express Sample Site
-                          li
-                            a#headerText(href='https://github.com/philipbankier/drone-search') Drone Search
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Trump-o-meter') Trump-O-Meter
-                          li
-                            a#headerText(href='https://github.com/philipbankier/d3-web-app') D3 Web App
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Maven-Tiles') Maven Tiles
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Kotlin-Stock-App') Kotlin Stock App
-                          li
-                            a#headerText(href='https://github.com/philipbankier/MIPS-Projects') MIPS Projects
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Maven-Kotlin-Tetris') Maven Kotlin Tetris
-                          li
-                            a#headerText(href='https://github.com/philipbankier/Dropwizard-Kotlin-Swagger-Starter') Dropwizard Kotlin Swagger Starter
+                            a#headerText(href='/boo') Boo
+            //- //- Turn on for status monitor
+            //- li
+            //-   a#headerText(href='/status') Status
+
+          ul.nav.navbar-nav.navbar-right
+            li
+              a#headerText(href='/cool') Cool Stuff     
             li.dropdown
               a.dropdown-toggle#headerText(data-toggle="dropdown", aria-haspopup="true", role="button", aria-expanded="false") Interesting 
                 span(class='caret')
@@ -58,22 +82,4 @@
                     li(class=(title === 'Problematic') ? 'active' : undefined)
                       a#headerText(href='/problematic') Problematic
                     li
-                      a#headerText(href='/resources') Resources
-            li
-              a#headerText(href='/cool') Cool Stuff
-              
-            //- //- Turn on for status monitor
-            //- li
-            //-   a#headerText(href='/status') Status
-
-          ul.nav.navbar-nav.navbar-right
-            li(class=(title === 'Contact') ? 'active' : undefined)
-              a#headerText(href='/contact') Contact Me
-            li.dropdown
-              a.dropdown-toggle#headerText(data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false") My Awesome Pets
-                span(class='caret')
-                ul.dropdown-menu
-                  li
-                    a#headerText(href='/buddy') Buddy
-                  li
-                    a#headerText(href='/boo') Boo
+                      a#headerText(href='/resources') Resources      

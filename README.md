@@ -95,6 +95,8 @@
 * Learn GSAP - https://www.slant.co/topics/4797/viewpoints/5/~javascript-animation-frameworks~gsap
 * Make game or somthing using flashlight effect - https://codemyui.com/flashlight-mouse-pointer/
 * CSS Easy Animations - https://daneden.github.io/animate.css/
+* Cool animated ribbon for adding a cool side page - http://lab.hakim.se/forkit-js/
+* Cover rotater - https://github.com/coverflowjs/coverflow
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
 * shatter text effect - https://codepen.io/ARS/pen/pjypwd
@@ -102,6 +104,7 @@
 * Filling SVG Text - https://codepen.io/supah/pen/vXyBza
 * Cool Anime.js effects - https://codepen.io/collection/XLebem/ - http://animejs.com/
 * Try to usue this - http://www.vittoriozaccaria.net/dyncss-example/
+* Add google maps things - https://mapsed.apphb.com/
 
 #### Cool Image effects
 * Water Blur Animation- https://codemyui.com/looking-water-blur-animation-effect-5-styles/
@@ -119,6 +122,7 @@
 * Fix passions - http://www.jsonenglish.com/projects/flex/
 * prjects could be this format - https://github.com/michaelsoriano/bootstrap-photo-gallery/blob/master/demo.html
 * Add this for my skills - https://codepen.io/tamak/pen/hzEer
+* 10 Easy Image Hover Effects You Can Copy and Paste - https://designshack.net/articles/css/joshuajohnson-2/
 
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/

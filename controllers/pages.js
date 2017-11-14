@@ -44,6 +44,17 @@ exports.resume = (req, res) => {
 
 /**
  * GET /
+ * Hardware Project Summaries
+ */
+exports.hardware = (req, res) => {
+  res.render('projects/hardware', {
+    title: 'Hardware'
+  });
+};
+
+
+/**
+ * GET /
  * Project Summaries
  */
 exports.summary = (req, res) => {
