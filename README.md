@@ -96,6 +96,8 @@
 * CSS Easy Animations - https://daneden.github.io/animate.css/
 * Cool animated ribbon for adding a cool side page - http://lab.hakim.se/forkit-js/
 * Cover rotater - https://github.com/coverflowjs/coverflow
+* Add funny sales page with price list - https://bootsnipp.com/snippets/featured/bootstrap-30-responsive-pricing-tables
+
 
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
@@ -114,22 +116,20 @@
 * Multi layer image slider - https://codemyui.com/multi-layer-image-slider/
 
 #### Home 
+* Add this - https://bootsnipp.com/snippets/featured/simple-resume-template
 * Use this code pen to make the second link - https://codepen.io/maheshambure21/pen/PGpqQQ - https://html5up.net/highlights
 * Add projects - http://www.garysheng.com/
 * my projects should be this - https://codepen.io/noeldelgado/pen/PZJGLx
 * make the picture of me change from a baby pic to a current pic as you scroll down the page
 * change passion pics and figure out why pics arent responsive
 * prjects could be this format - https://github.com/michaelsoriano/bootstrap-photo-gallery/blob/master/demo.html
-* Add this for my skills - https://codepen.io/tamak/pen/hzEer
 * 10 Easy Image Hover Effects You Can Copy and Paste - https://designshack.net/articles/css/joshuajohnson-2/
+* Add resume to bottom and look at - http://www.tymandrews.com/#resume
+* Interests - 1. astronomy -> https://www.bypeople.com/css-js-webgl-rotating-3d-globe-effect/  
+* Get gallery of gallery working - https://bootsnipp.com/snippets/WPKPO
 
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
-
-#### About me 
-* Add skills, about and more content
-* Add resume to bottom and look at - http://www.tymandrews.com/#resume
-* Interests - 1. astronomy -> https://www.bypeople.com/css-js-webgl-rotating-3d-globe-effect/  
 
 #### Articles page 
 * Add articles and improve appearance
@@ -145,8 +145,7 @@
 * Improve appearance
 
 #### Contact Me 
-* make more 
-like this - https://www.devonstank.com/contact/
+* make more like this - https://www.devonstank.com/contact/
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
 
@@ -154,7 +153,6 @@ like this - https://www.devonstank.com/contact/
 * Make more like this - https://www.devonstank.com/resume/
 
 #### Buddy/Boo
-* Lightgallery - https://github.com/sachinchoolur/lightGallery
 * Add picture light slider - http://jquery-plugins.net/jquery-lightslider-lightweight-responsive-content-slider
 
 #### Projects
