@@ -10,8 +10,8 @@
   right: 0; }
 
 .bb {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   background: url("//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png") no-repeat 50%/70% rgba(0, 0, 0, 0.1);
   color: #69ca62;

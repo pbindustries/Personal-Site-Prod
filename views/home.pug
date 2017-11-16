@@ -32,44 +32,6 @@ block content
     br
     br
     br
-    //- Fix this
-    .countdown-container.container
-      .clock.row
-
-        //- days
-        .clock-item.clock-days.countdown-time-value.col-sm-6.col-md-3
-          .wrap
-            .inner
-              .clock-canvas#canvas_days
-              .text
-                p.val 5
-                p.type-days.type-time DAYS
-        //- hours
-        .clock-item.clock-hours.countdown-time-value.col-sm-6.col-md-3
-          .wrap
-            .inner
-              .clock-canvas#canvas_hours
-              .text
-                p.val 4
-                p.type-hours.type-time HOURS
-
-        //- minutes
-        .clock-item.clock-minutes.countdown-time-value.col-sm-6.col-md-3        
-          .wrap
-            .inner
-              .clock-canvas#canvas_minutes
-              .text
-                p.val 3
-                p.type-minutes.type-time MINUTES
-        //- seconds
-        .clock-item.clock-seconds.countdown-time-value.col-sm-6.col-md-3        
-          .wrap
-            .inner
-              .clock-canvas#seconds
-              .text
-                p.val 2
-                p.type-seconds.type-time SECONDS
-
   .container-fluid.bg-4.text-center.large-header-home2#me
     br
     br
@@ -80,61 +42,66 @@ block content
       br
       br
       br
-      .row
-        .col-md-offset-2.col-md-8.col-lg-offset-3.col-lg-6
-          .well.profile
-            .col-sm-12    
-              .col-xs-12.col-sm-8
-                p About: 
-                p Skills:
-                  br
-                  span.tags HTML
-                  span.tags CSS
-                  span.tags Kotlin
+      h1 My Skills
+      .skillbar.clearfix(data-percent="20%")
+        .skillbar-title(style="background: #d35400;")
+          span HTML5
+        .skillbar-bar(style="background: #e67e22;")
+        .skill-bar-percent 20%
 
-            .col-xs-12.col-sm-4.text-center
-              img.img-responsive.margin.center-block#preHoverPic(src="/images/me.jpg", alt="Image")
-              br
-              br
-            .col-xs-12.divider.text-center
-              br
-              br
-              .col-xs-12.col-sm-4.emphasis
-                button.btn.btn-success.btn-block 
-                  span.fa.fa-plus-circle
-              .col-xs-12.col-sm-4.emphasis
-                button.btn.btn-info.btn-block View Profile
-                  span.fa.fa-user
-              .col-xs-12.col-sm-4.emphasis
-                .btn-group.dropup.btn-block
-                  button.btn.btn-primary.dropdown-toggle(type="button", data-toggle="dropdown") Options
-                    span.fa.fa-gear
-                    span.sr-only Toggle Dropdown
-                  ul.dropdown-menu.text-left(role="menu")
-                    li
-                      a(href="/contact") Contact Me
-                        span.fa.fa-envelope.pull-right
-                    li.divider                  
-                    li
-                      a(href="#") Add or remove from a list
-                        span.fa.fa-list.pull-right
+      .skillbar.clearfix(data-percent="25%")
+        .skillbar-title(style="background: #2980b9;")
+          span CSS3
+        .skillbar-bar(style="background: #3498db;")
+        .skill-bar-percent 25%
+
+      .skillbar.clearfix(data-percent="50%")
+        .skillbar-title(style="background: #2c3e50;")
+          span jQuery
+        .skillbar-bar(style="background: #2c3e50;")
+        .skill-bar-percent 50%
+
+      .skillbar.clearfix(data-percent="40%")
+        .skillbar-title(style="background: #46465e;")
+          span PHP
+        .skillbar-bar(style="background: #5a68a5;")
+        .skill-bar-percent 40%
+
+      .skillbar.clearfix(data-percent="75%")
+        .skillbar-title(style="background: #333333;")
+          span Wordpress
+        .skillbar-bar(style="background: #525252;")
+        .skill-bar-percent 75%
+
+      .skillbar.clearfix(data-percent="100%")
+        .skillbar-title(style="background: #27ae60;")
+          span SEO
+        .skillbar-bar(style="background: #2ecc71;")
+        .skill-bar-percent 100%
+
+      .skillbar.clearfix(data-percent="70%")
+        .skillbar-title(style="background: #124e8c;")
+          span BOOM
+        .skillbar-bar(style="background: #4288d0;")
+        .skill-bar-percent 70%
+
       br   
       br
       br 
-      br                
-      h1 Some Of My Passions Include
+      br   
+      h1 Books I Like             
       br
       br
       .flex
-        a(bg="a", style="left:0px;top:0px;width:250px;height:125px;", width="325", height="175") A
+        a(bg="a", style="left:0px;top:0px;width:250px;height:125px;", width="350", height="275") A
         a(bg="b", style="left:260px;height:100px;top:0px;width:125px;", width="250", height="175") B
         a(bg="c",style="left:395px;height:250px;top:0px;width:75px;", width="125", height="350") C
         a(bg="d", style="left:480px;height:75px;top:0px;width:75px;", width="175", height="150") D
         a(bg="e", style="left:565px;height:125px;top:0px;width:200px;", width="200", height="250") E
         a(bg="f", style="left:480px;height:200px;top:85px;width:75px;", width="150", height="225") F
-        a(bg="g", style="left:0px;height:100px;top:135px;width:75px;", width="305", height="150") G
+        a(bg="g", style="left:0px;height:100px;top:135px;width:75px;", width="225", height="150") G
         a(bg="h", style="left:260px;height:75px;top:110px;width:125px;", width="200", height="200") H
-        a(bg="i",style="left:85px;height:140px;top:135px;width:165px;", width="200", height="140") I
+        a(bg="i",style="left:85px;height:140px;top:135px;width:165px;", width="250", height="140") I
         a(bg="j", style="left:565px;height:150px;top:135px;width:75px;", width="125", height="275") J
         a(bg="k", style="left:650px;height:75px;top:135px;width:75px;", width="75", height="200") K
         br
@@ -142,7 +109,8 @@ block content
         br
         br
       br
-      h1 Books I Like
+      h1 My Passions Include
+      br
       br
       .mainContainer
         ul.listContainer
@@ -181,38 +149,10 @@ block content
     br
     br
     br
-    //- Fix this          
-    //- .twentytwenty-container#container1
-    //-   img(src="/images/buddy/buddy.jpg") 
-    //-   img(src="/images/buddy/buddy2.jpg") 
-  .container-fluid.bg-9.text-center  
     br
     br
     br
     br
-    br
-    .cd-intro-block
-      .content-wrapper
-        h1 Squeezebox Portfolio Template
-        a.cd-btn(href="#0", data-action="load-projects") Show projects
-    .cd-projects-wrapper
-      ul.cd-slider
-        li.current
-          a(href="#")
-            img(src="/images/buddy/buddy2.jpg", alt="project image")
-            .project-info
-              h2 Proj 1
-              p Lorem ipsum dolor sit amet
-      ul.cd-slider-navigation.cd-img-replace
-        li
-          a.prev.inactive(href="#0") Prev
-                li
-          a.next(href="#0") Next
-    .cd-project-content
-      div
-        h2 Proj Title
-        em Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-      a.close.cd-img-replace(href="#0") Close
     br
     br
     br
@@ -243,12 +183,6 @@ block content
 
   .container-fluid.bg-9.text-center 
     br
-    br
-    br
-    br
-    br
-    #body
-      #feedControl Loading . . .
     br
     br
     br

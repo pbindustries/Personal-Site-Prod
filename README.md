@@ -18,7 +18,6 @@
 
 ### Coming Features
 * MVC Project Structure
-* Sass stylesheets (auto-compiled via middleware)
 * **Account Management**
  * Gravatar
  * Profile Details
@@ -97,6 +96,7 @@
 * CSS Easy Animations - https://daneden.github.io/animate.css/
 * Cool animated ribbon for adding a cool side page - http://lab.hakim.se/forkit-js/
 * Cover rotater - https://github.com/coverflowjs/coverflow
+
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
 * shatter text effect - https://codepen.io/ARS/pen/pjypwd
@@ -114,12 +114,11 @@
 * Multi layer image slider - https://codemyui.com/multi-layer-image-slider/
 
 #### Home 
+* Use this code pen to make the second link - https://codepen.io/maheshambure21/pen/PGpqQQ - https://html5up.net/highlights
 * Add projects - http://www.garysheng.com/
 * my projects should be this - https://codepen.io/noeldelgado/pen/PZJGLx
 * make the picture of me change from a baby pic to a current pic as you scroll down the page
 * change passion pics and figure out why pics arent responsive
-* Make grad counter smaller and make it work
-* Fix passions - http://www.jsonenglish.com/projects/flex/
 * prjects could be this format - https://github.com/michaelsoriano/bootstrap-photo-gallery/blob/master/demo.html
 * Add this for my skills - https://codepen.io/tamak/pen/hzEer
 * 10 Easy Image Hover Effects You Can Copy and Paste - https://designshack.net/articles/css/joshuajohnson-2/

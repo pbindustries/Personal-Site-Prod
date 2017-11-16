@@ -239,14 +239,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-// Cube photo gallery
-$('.carousel-demo').jR3DCarousel({
-  width : 600,       
-  height: 450,   
-  slides: slides,
-  animation: "slide3D"
-});
-
 // Responsive Quote Carousel 
 // Run this function when DOM is ready
 $(document).ready(function() { 
@@ -268,11 +260,6 @@ $('ul.first').bsPhotoGallery({
   "hasModal" : true
 });
 
-
-// twenty/twenty
-$(window).load(function() {
-  $("#container1").twentytwenty();
-});
 
 // Home photo galleries
 $(document).ready(function(){
@@ -342,10 +329,3 @@ $(window).on('resize', function(){
 });
 
 
-// NEWS
-function load() {
-    var feed ="http://feeds.bbci.co.uk/news/world/rss.xml";
-    new GFdynamicFeedControl(feed, "feedControl");
-}
-google.load("feeds", "1");
-google.setOnLoadCallback(load);
