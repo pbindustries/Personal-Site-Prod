@@ -97,7 +97,8 @@
 * Cool animated ribbon for adding a cool side page - http://lab.hakim.se/forkit-js/
 * Cover rotater - https://github.com/coverflowjs/coverflow
 * Add funny sales page with price list - https://bootsnipp.com/snippets/featured/bootstrap-30-responsive-pricing-tables
-
+* add this 3d curtain effect on scroll - https://codemyui.com/3d-curtain-effect-on-scroll/
+* Add more stock widgets - https://www.tradingview.com/widget/
 
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
@@ -162,6 +163,7 @@
 * Add super dope music thing - https://codepen.io/woodwork/pen/rxrLqa
 * improve music section with this soundcloud plugin - https://github.com/ToneDen/Player
 * Name interests
+* Add this widget - https://www.tradingview.com/widget/market-overview/
 
 #### Cool
 * fix the emotion detector - https://codepen.io/sdras/pen/dZOdpv
