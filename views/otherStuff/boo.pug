@@ -1,35 +1,83 @@
 extends ../layout
 
 block content
+  style(type='text/css').
+    .demo {
+      width:420px;
+    }
+    ul {
+      list-style: none outside none;
+      padding-left: 0;
+      margin-bottom:0;
+    }
+    li {
+      display: block;
+      float: left;
+      margin-right: 6px;
+      cursor:pointer;
+    }
+    img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+    }
+
+  .demo
+    ul#lightSlider
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-1.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-2.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-3.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-4.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-5.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-6.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-7.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-8.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-9.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-10.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-11.jpg")
+      li(data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg")
+        img(src="http://sachinchoolur.github.io/lightslider/img/cS-12.jpg")
+
   //- FIRST CONTAINER
-  .carousel.slide.bot#myCarousel(data-ride="carousel")
-    //- Indicators
-    ol.carousel-indicators
-      li.active(data-target="#myCarousel", data-slide-to="0")
-      li(data-target="#myCarousel", data-slide-to="1")
-      li(data-target="#myCarousel", data-slide-to="2")
+  //- .carousel.slide.bot#myCarousel(data-ride="carousel")
+  //-   //- Indicators
+  //-   ol.carousel-indicators
+  //-     li.active(data-target="#myCarousel", data-slide-to="0")
+  //-     li(data-target="#myCarousel", data-slide-to="1")
+  //-     li(data-target="#myCarousel", data-slide-to="2")
 
-    //- Wrapper for slides
-    .carousel-inner
-      .item.active
-        img.center(src="/images/boo/boo1.jpg", alt="Pic1", height="2000", width="2000")
-      //- .item
-      //-   video.center(src="boo1.mp4", type="video/mp4", height="240", width="320", controls)
-      .item
-        img.center(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
+  //-   //- Wrapper for slides
+  //-   .carousel-inner
+  //-     .item.active
+  //-       img.center(src="/images/boo/boo1.jpg", alt="Pic1", height="2000", width="2000")
+  //-     //- .item
+  //-     //-   video.center(src="boo1.mp4", type="video/mp4", height="240", width="320", controls)
+  //-     .item
+  //-       img.center(src="/images/buddy/buddy3.jpg", alt="Pic3", height="2000", width="2000")
 
-    //- Left and right controls
-    a.left.carousel-control(href="#myCarousel", data-slide="prev")
-      span.glyphicon.glyphicon-chevron-left
-      span.sr-only Previous
-    a.right.carousel-control(href="#myCarousel", data-slide="next")
-      span.glyphicon.glyphicon-chevron-right
-      span.sr-only Next
+  //-   //- Left and right controls
+  //-   a.left.carousel-control(href="#myCarousel", data-slide="prev")
+  //-     span.glyphicon.glyphicon-chevron-left
+  //-     span.sr-only Previous
+  //-   a.right.carousel-control(href="#myCarousel", data-slide="next")
+  //-     span.glyphicon.glyphicon-chevron-right
+  //-     span.sr-only Next
 
-  .main-text.hidden-xs
-    .col-md-12.text-center
-      .jumbotron(style="background:transparent !important")
-        h1 Boo 
+  //- .main-text.hidden-xs
+  //-   .col-md-12.text-center
+  //-     .jumbotron(style="background:transparent !important")
+  //-       h1 Boo 
         
   //- .container-fluid.bg-5.text-center.bot     
   //-   br

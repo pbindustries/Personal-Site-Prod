@@ -56,9 +56,9 @@
 | **controllers**/contact.js         | Controller for contact form.                                 |
 | **controllers**/pages.js           | Controller for all pages.                                    |
 | **public**/                        | Static assets (fonts, css, js, img).                         |
-| **public/css**/                | Explain each stylesheet later                                |
-| **public/js**/                 | Explain each JavaScript later                                |
-| **public/images**/             | Explain each file later                                      |
+| **public/css**/                	 | Explain each stylesheet later                                |
+| **public/js**/                 	 | Explain each JavaScript later                                |
+| **public/images**/                 | Explain each file later                                      |
 | **views/myThings**/                | Resume,about me, contact my and my interests                 |
 | **views/otherStuff**/              | articles, resources and pics of my awesome pets              |
 | **views/partials**/flash.pug       | Error, info and success flash notifications.                 |
@@ -76,7 +76,14 @@
 
 ## Tasks To Do
 
+### Priorities
+* https://github.com/coverflowjs/coverflow
+* Add to cool page - https://codepen.io/kevincharm/pen/Rjgozo
+* Add to cool page - https://codepen.io/ge1doot/pen/WbWQOP
+* Fix this boo photo gallery - http://jsfiddle.net/sachin377/2patspw2/
+
 #### General
+* Dope aanimations - check this out - https://codepen.io/airnan/pen/GOvebO
 * Make a code and other things shop like - this https://www.devonstank.com/products/accordion-style-1
 * Activate one.com site hosting and use given url
 * Improve form appearance
@@ -99,6 +106,11 @@
 * Add funny sales page with price list - https://bootsnipp.com/snippets/featured/bootstrap-30-responsive-pricing-tables
 * add this 3d curtain effect on scroll - https://codemyui.com/3d-curtain-effect-on-scroll/
 * Add more stock widgets - https://www.tradingview.com/widget/
+* Use for galleries on homepage - 
+* Awesome picture portfolio - https://bootdey.com/snippets/view/Awesome-portfolio
+* Cool title screen, add to somthing - https://codepen.io/lgrqvst/pen/wPdREK
+* Parallax Animated Card UI Snippet - https://codemyui.com/mesmerizing-parallax-animated-info-card/
+* Really cool hover effects - https://codemyui.com/bunch-really-fancy-css-hover-effects/
 
 #### Text animations and other text effects
 * Use this text animation as user scrolls down the page - https://codepen.io/kh-mamun/pen/NdwZdW
@@ -108,6 +120,8 @@
 * Cool Anime.js effects - https://codepen.io/collection/XLebem/ - http://animejs.com/
 * Try to usue this - http://www.vittoriozaccaria.net/dyncss-example/
 * Add google maps things - https://mapsed.apphb.com/
+* Appear and Disappear Text Animation - https://codemyui.com/appear-disappear-text-animation/
+* SVG Text Mask With Video Background - https://codemyui.com/svg-text-mask-video-background/
 
 #### Cool Image effects
 * Water Blur Animation- https://codemyui.com/looking-water-blur-animation-effect-5-styles/
@@ -115,8 +129,10 @@
 * Awesome split image effect - https://codemyui.com/vertical-split-image-slideshow/
 * Parallax Effect on Hover - https://codemyui.com/parallax-effect-hover/
 * Multi layer image slider - https://codemyui.com/multi-layer-image-slider/
+* Hover effect - http://bestjquery.com/tutorial/hover-effect/demo150/
 
 #### Home 
+* progress bar - http://bestjquery.com/tutorial/progress-bar/demo65/
 * Add this - https://bootsnipp.com/snippets/featured/simple-resume-template
 * Use this code pen to make the second link - https://codepen.io/maheshambure21/pen/PGpqQQ - https://html5up.net/highlights
 * Add projects - http://www.garysheng.com/
@@ -128,6 +144,7 @@
 * Add resume to bottom and look at - http://www.tymandrews.com/#resume
 * Interests - 1. astronomy -> https://www.bypeople.com/css-js-webgl-rotating-3d-globe-effect/  
 * Get gallery of gallery working - https://bootsnipp.com/snippets/WPKPO
+* Connection of dots should slow down on idle 
 
 #### Navbar
 * Improve navbar with YAMM - http://geedmo.github.io/yamm3/
@@ -149,6 +166,7 @@
 * make more like this - https://www.devonstank.com/contact/
 * Add direct messaging to the contact page, instead of links for social media
 * Add social buttons - https://lipis.github.io/bootstrap-social/
+* Add to contact page - https://bootdey.com/snippets/view/Contact-page-section
 
 #### Resume
 * Make more like this - https://www.devonstank.com/resume/
@@ -167,7 +185,16 @@
 
 #### Cool
 * fix the emotion detector - https://codepen.io/sdras/pen/dZOdpv
+* Rainbow particle mobeus - https://codepen.io/cvaneenige/pen/vWZJxz
+* crazy orb thing - https://codepen.io/ge1doot/pen/QOpRxB
+* Colour me in using your mouse or finger!  - https://codepen.io/LloydJames/pen/qVXJNy 
+* Rainbow Mouse Trail - https://codemyui.com/rainbow-mouse-trail/
+* Awesome site generator - http://megaboilerplate.com/
 
 ## Current Development
 * Continue integrating - https://github.com/BlackrockDigital/startbootstrap-creative 
 * Look into Travis CI
+* Add blog, use this - https://bootdey.com/snippets/view/blog-item
+
+### Look into 
+* Linear gradient - https://codepen.io/lgrqvst/pen/wPdREK
