@@ -12,7 +12,7 @@ const lusca = require('lusca');
 const dotenv = require('dotenv');
 const flash = require('express-flash');
 const path = require('path');
-const sass = require('node-sass-middleware');
+// const sass = require('node-sass-middleware');
 const expressValidator = require('express-validator');
 const multer = require('multer'); 
 const routes = require('./routes')
@@ -51,10 +51,10 @@ app.set('view engine', 'pug');
 // // express application status monitor
 // app.use(expressStatusMonitor());
 app.use(compression());
-app.use(sass({
-  src: path.join(__dirname, 'public'),
-  dest: path.join(__dirname, 'public')
-}));
+// app.use(sass({
+//   src: path.join(__dirname, 'public'),
+//   dest: path.join(__dirname, 'public')
+// }));
 app.use(logger('dev')); // log every request to the console
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true }));

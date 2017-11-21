@@ -81,6 +81,7 @@
 * Add to cool page - https://codepen.io/kevincharm/pen/Rjgozo
 * Add to cool page - https://codepen.io/ge1doot/pen/WbWQOP
 * Fix this boo photo gallery - http://jsfiddle.net/sachin377/2patspw2/
+* Make homepage more responsive - make the title animation responsive
 
 #### General
 * Dope aanimations - check this out - https://codepen.io/airnan/pen/GOvebO
@@ -198,3 +199,4 @@
 
 ### Look into 
 * Linear gradient - https://codepen.io/lgrqvst/pen/wPdREK
+* Do this for alex - https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
