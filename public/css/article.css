@@ -1,0 +1,67 @@
+.accordion {
+  width: 70%;
+  margin: 20px auto;
+}
+.accordion h1, h2, h3, h4 {
+  cursor: pointer;
+}
+.accordion h2, h3, h4 {
+  font-family: "News Cycle";
+}
+.accordion h1 {
+  padding: 15px 20px;
+  background-color: #333;
+  font-family: Lobster;
+  font-weight: normal;
+  color: #6599FF;
+}
+.accordion h1:hover {
+  color: #6CB0F1;
+}
+.accordion h1:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.accordion h1:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+.accordion h1:not(:last-of-type) {
+  border-bottom: 1px dotted #9FC0FF;
+}
+.accordion div, .accordion p {
+  display: none;
+}
+.accordion h2 {
+  padding: 5px 25px;
+  background-color: #6599FF;
+  color: #333;
+}
+.accordion h2:hover {
+  background-color: #9FC0FF;
+}
+.accordion h3 {
+  padding: 5px 30px;
+  background-color: #A4A4A4;
+  color: #ddd; 
+}
+.accordion h3:hover {
+  background-color: #777779;
+}
+
+.accordion h4 {
+  padding: 5px 35px;
+  background-color: #CDCDCD;
+  color: #af720a; 
+}
+.accordion h4:hover {
+  background-color: #9B9999;
+}
+.accordion p {
+  padding: 15px 35px;
+  background-color: #ddd;
+  font-family: "Georgia";
+  color: #333;
+  line-height: 1.3rem;
+}
+.accordion .opened-for-codepen {
+  display: block;
+}
