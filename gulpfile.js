@@ -61,7 +61,7 @@ gulp.task('minify-css', ['sass'], function() {
 // });
 
 // Default task
-gulp.task('default', ['sass', 'minify-css']);
+// gulp.task('default', ['sass', 'minify-css']);
 
 // Get uglify js working
 // gulp.task('default', ['sass', 'minify-css', 'minify-js']);
@@ -92,13 +92,14 @@ gulp.task('nodemon', function (cb) {
 
 
 // Dev task with browserSync
-gulp.task('dev', ['browserSync', 'nodemon', 'sass', 'minify-css'], function() {
+gulp.task('dev', ['browserSync', 'nodemon'], function() {
+// gulp.task('dev', ['browserSync', 'nodemon', 'sass', 'minify-css'], function() {
 
 // Get uglify js working	
 // gulp.task('dev', ['browserSync', 'nodemon', 'sass', 'minify-css', 'minify-js'], function() {
 // 
-  gulp.watch('public/sass/*.scss', ['sass']);
-  gulp.watch('public/css/*.css', ['minify-css']);
+  // gulp.watch('public/sass/*.scss', ['sass']);
+  // gulp.watch('public/css/*.css', ['minify-css']);
 
   // Get uglify js working  
   // gulp.watch('public/js/*.js', ['minify-js']);
