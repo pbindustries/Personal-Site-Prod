@@ -42,7 +42,7 @@
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 35%;
+	top: 38%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -55,7 +55,7 @@
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 65%;
+	top: 67%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
@@ -206,6 +206,18 @@
 
 #like2 {
 	border-radius: 25px;
+	min-width: 60%;
+	height: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
 }
 
 .home-project-title {
