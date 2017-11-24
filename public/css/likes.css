@@ -1,3 +1,57 @@
+.likeCont2 {
+  background-image: url("/images/buddy/buddy2.jpg");
+  /* Set a specific height */
+  min-height: 950px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.likeCont3 {
+  background-image: url("/images/buddy/buddy2.jpg");
+  /* Set a specific height */
+  min-height: 950px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#musicCont {
+  border-radius: 25px;
+  min-width: 60%;
+  height: auto;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background-color:rgba(101,153,255,0.70);
+  text-align: center;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
+#quoter {
+  min-height: 350px;
+  border-radius: 25px;
+  min-width: 60%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background-color:rgba(101,153,255,0.70);
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+
 .large-header-like {
 	position: relative;
 	width: 100%;

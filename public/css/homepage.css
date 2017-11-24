@@ -134,8 +134,8 @@
 
 /* Multi level image container */
 .wrapper{
-  width: 690px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   max-height:100vh;
   position: absolute;
   left:50%;
@@ -167,6 +167,33 @@
 	width:100%;
 	height:auto;
 	margin:auto;
+}
+
+.homeCont5 {
+	background-image: url("/images/buddy/buddy2.jpg");
+	/* Set a specific height */
+	min-height: 1000px; 
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#youtubeCont {
+	border-radius: 25px;
+	min-width: 60%;
+	height: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+	background-color:rgba(101,153,255,0.70);
+	text-align: center;
+	top: 33%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
 }
 
 .bud2 {
