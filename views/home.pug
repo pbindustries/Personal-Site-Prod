@@ -28,25 +28,31 @@ block content
     .row.slideanim
       .col-sm-4
         span.glyphicon.glyphicon-off.logo-small
-        h4 HARDWARE PROJECTS
+        h4 
+          a(href="/hardware") HARDWARE PROJECTS
       .col-sm-4
         span.glyphicon.glyphicon-heart.logo-small
-        h4 SOFTWARE PROJECTS
+        h4 
+          a(href="/summary") SOFTWARE PROJECTS
       .col-sm-4
         span.glyphicon.glyphicon-lock.logo-small
-        h4 INTERESTS AND PASSIONS
+        h4 
+          a(href="/likes") INTERESTS AND PASSIONS
     br
     br
     .row.slideanim
       .col-sm-4
         span.glyphicon.glyphicon-leaf.logo-small
-        h4 RESUME
+        h4 
+          a(href="/resume") RESUME
       .col-sm-4
         span.glyphicon.glyphicon-certificate.logo-small
-        h4 AWESOME PETS
+        h4 
+          a(href="/buddy") AWESOME PETS
       .col-sm-4
         span.glyphicon.glyphicon-wrench.logo-small
-        h4(style="color:#303030;") COOL STUFF
+        h4(style="color:#303030;") 
+          a(href="/cool") COOL STUFF
     br
     br
 
@@ -65,6 +71,27 @@ block content
       canvas#demo-canvas
       br  
       h1.home2-title Get To Know Me    
+      br
+      .wrapper
+          .bottom
+            img(src='http://i67.tinypic.com/2eo86ew.jpg', draggable='false')
+          |   
+          .middle
+            img(src='http://i64.tinypic.com/15i68sz.jpg', draggable='false')
+          |   
+          .scroller.scroller-middle
+            svg.scroller__thumb(xmlns='http://www.w3.org/2000/svg', width='100', height='100', viewbox='0 0 100 100')
+              polygon(points='0 50 37 68 37 32 0 50', style='fill:#FFCCBC')
+                polygon(points='100 50 64 32 64 68 100 50', style='fill:#FFCCBC')
+          |   
+          .top
+            img(src='http://i64.tinypic.com/2ppni55.jpg', draggable='false')
+          |   
+          .scroller.scroller-top
+            svg.scroller__thumb(xmlns='http://www.w3.org/2000/svg', width='100', height='100', viewbox='0 0 100 100')
+              polygon(points='0 50 37 68 37 32 0 50', style='fill:#FFAB91')
+                polygon(points='100 50 64 32 64 68 100 50', style='fill:#FFAB91')
+
       br
       h1 My Skills
       .skillbar.clearfix(data-percent="20%")
@@ -110,41 +137,7 @@ block content
         .skill-bar-percent 70%
 
       br
-      h1 My Passions Include
       br
-      br
-      .flex
-        a(bg="a", style="left:0px;top:0px;width:250px;height:125px;", width="350", height="275") A
-        a(bg="b", style="left:260px;height:100px;top:0px;width:125px;", width="250", height="175") B
-        a(bg="c",style="left:395px;height:250px;top:0px;width:75px;", width="125", height="350") C
-        a(bg="d", style="left:480px;height:75px;top:0px;width:75px;", width="175", height="150") D
-        a(bg="e", style="left:565px;height:125px;top:0px;width:200px;", width="200", height="250") E
-        a(bg="f", style="left:480px;height:200px;top:85px;width:75px;", width="150", height="225") F
-        a(bg="g", style="left:0px;height:100px;top:135px;width:75px;", width="225", height="150") G
-        a(bg="h", style="left:260px;height:75px;top:110px;width:125px;", width="200", height="200") H
-        a(bg="i",style="left:85px;height:140px;top:135px;width:165px;", width="250", height="140") I
-        a(bg="j", style="left:565px;height:150px;top:135px;width:75px;", width="125", height="275") J
-        a(bg="k", style="left:650px;height:75px;top:135px;width:75px;", width="75", height="200") K
-        br
-        br
-        br
-        br
-      br
-      h1 My Passions Include
-      br
-      br
-      .mainContainer
-        ul.listContainer
-          li
-            a(href="/buddy") Buddy
-          li
-            a(href="/buddy") Buddy
-          li
-            a(href="/buddy") Buddy
-          li
-            a(href="/buddy") Buddy
-          li
-            a(href="/buddy") Buddy
       br
       br
       br
@@ -201,9 +194,43 @@ block content
             .title
               a(href="#") Dope Stuff
             img(src="http://lorempixel.com/600/360/animals")
-    br
-    br
-    br
+      br
+      br
+      br
+      h1 My Passions Include
+        br
+        br
+        .flex
+          a(bg="a", style="left:0px;top:0px;width:250px;height:125px;", width="350", height="275") A
+          a(bg="b", style="left:260px;height:100px;top:0px;width:125px;", width="250", height="175") B
+          a(bg="c",style="left:395px;height:250px;top:0px;width:75px;", width="125", height="350") C
+          a(bg="d", style="left:480px;height:75px;top:0px;width:75px;", width="175", height="150") D
+          a(bg="e", style="left:565px;height:125px;top:0px;width:200px;", width="200", height="250") E
+          a(bg="f", style="left:480px;height:200px;top:85px;width:75px;", width="150", height="225") F
+          a(bg="g", style="left:0px;height:100px;top:135px;width:75px;", width="225", height="150") G
+          a(bg="h", style="left:260px;height:75px;top:110px;width:125px;", width="200", height="200") H
+          a(bg="i",style="left:85px;height:140px;top:135px;width:165px;", width="250", height="140") I
+          a(bg="j", style="left:565px;height:150px;top:135px;width:75px;", width="125", height="275") J
+          a(bg="k", style="left:650px;height:75px;top:135px;width:75px;", width="75", height="200") K
+          br
+          br
+          br
+          br
+      h1 My Passions Include
+        br
+        br
+        .mainContainer
+          ul.listContainer
+            li
+              a(href="/buddy") Buddy
+            li
+              a(href="/buddy") Buddy
+            li
+              a(href="/buddy") Buddy
+            li
+              a(href="/buddy") Buddy
+            li
+              a(href="/buddy") Buddy
 
   .container-fluid.bg-9.text-center 
     br
