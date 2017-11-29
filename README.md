@@ -1,6 +1,5 @@
 # Philip Bankier's Personal Website
 
-* Talk to bro about making a site like -> https://www.devonstank.com/about
 
 ## Features
 * Responsive jQuery animation with parallax
@@ -15,17 +14,6 @@
 * Integrated Youtube video and playlist player
 * Integrated Soundcloud 
 * Yarn Package Manager
-
-### Coming Features
-* MVC Project Structure
-* **Account Management**
- * Gravatar
- * Profile Details
- * Change Password
- * Forgot Password
- * Reset Password
- * Link multiple OAuth strategies to one account
- * Delete Account
 
 ## Prerequisites
 
@@ -77,14 +65,22 @@
 ## Tasks To Do
 
 ### Priorities
+* Add respond js for better polyfills - https://github.com/scottjehl/Respond
+* Add Easing animation on scroll to top and particular places - https://www.npmjs.com/package/jquery.easing
+* Add css animations to proj - https://daneden.github.io/animate.css/
+* Make footer small until you hit the bottom and more stuff, make header come after the home page pic then lock to top once scrolled - https://github.com/bigspotteddog/ScrollToFixed
+* Add wow for js animations - http://mynameismatthieu.com/WOW/
 * https://github.com/coverflowjs/coverflow
 * Add to cool page - https://codepen.io/kevincharm/pen/Rjgozo
 * Add to cool page - https://codepen.io/ge1doot/pen/WbWQOP
 * Fix this boo photo gallery - http://jsfiddle.net/sachin377/2patspw2/
 * Make homepage more responsive - make the title animation responsive
+* Use isotope for filtering content - https://isotope.metafizzy.co/
+* HTML5 Shiv - enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x - https://github.com/aFarkas/html5shiv
+* Classie - support for older browsers - https://github.com/desandro/classie
 
 #### General
-* Dope aanimations - check this out - https://codepen.io/airnan/pen/GOvebO
+* Dope animations - check this out - https://codepen.io/airnan/pen/GOvebO
 * Make a code and other things shop like - this https://www.devonstank.com/products/accordion-style-1
 * Activate one.com site hosting and use given url
 * Improve form appearance
@@ -200,3 +196,4 @@
 ### Look into 
 * Linear gradient - https://codepen.io/lgrqvst/pen/wPdREK
 * Do this for alex - https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp
+* Alexs starting theme - https://themewagon.com/themes/free-one-page-multipurpose-responsive-bootstrap-template-download-2017/
