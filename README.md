@@ -63,7 +63,7 @@
 | routes.js                          | This holds all the routes                                    |
 
 ## Tasks To Do
-
+add page for interesting videos - https://www.facebook.com/ILEARNEDALOTDOTCOM/videos/1082904598522968/
 ### Priorities
 * Add respond js for better polyfills - https://github.com/scottjehl/Respond
 * Add Easing animation on scroll to top and particular places - https://www.npmjs.com/package/jquery.easing
@@ -78,6 +78,7 @@
 * Use isotope for filtering content - https://isotope.metafizzy.co/
 * HTML5 Shiv - enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x - https://github.com/aFarkas/html5shiv
 * Classie - support for older browsers - https://github.com/desandro/classie
+* Add ribbon for development - https://codepen.io/eode9/pen/twkKm
 
 #### General
 * Dope animations - check this out - https://codepen.io/airnan/pen/GOvebO
